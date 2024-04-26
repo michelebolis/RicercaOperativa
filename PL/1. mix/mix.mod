@@ -5,7 +5,7 @@ param nP; # Numero di prodotti
 set R:= 1..nR; # Insieme dei reparti produttivi
 set P:= 1..nP; # Insieme dei prodotti
 param b{R}; # Risorse disponibili [oreuomo/sett]
-param c{P}; # Proditti unitari [€/unita]
+param c{P}; # Profitti unitari [€/unita]
 param a{R, P}; # Tempi di lavorazione [oreuomo/unita]
 
 # VARIABILI

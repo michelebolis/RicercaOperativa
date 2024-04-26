@@ -1,9 +1,9 @@
 # DATI
-set C ;
-param budget;
-param q{C};
+set C; # Insieme dei Cavalli
+param budget; # Budget in €
+param q{C}; # Quote
 # VARIABILI
-var x{C} >=0;
+var x{C} >=0; # Puntate
 var y >= 0; # Vincita minima
 # VINCOLI
 subject to Soldi :
@@ -11,9 +11,8 @@ subject to Soldi :
 
 # Vincoli per linearizzare la f.o. max-min [€]
 subject to Linearizzazione {c in C}:
-  y <= q[c] * x[c];
+  y <= q[c] * x[c]; # Trovo la minima vincita
 # OBIETTIVO
-
 maximize z : y; 
 ########
 data;

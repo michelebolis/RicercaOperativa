@@ -26,8 +26,10 @@ param c :=
 1 0.02
 2 0.03
 ;
-param a : 1 2 3 :=
+param a : 1   2   3 :=
 1        0.2 0.2 0.3
 2        0.3 0.1 0.3
 ;
 end;
+##########
+# Soluzione ottima non unica perche x[1] è fuori base
