@@ -1,0 +1,168 @@
+Problem:    posologia
+Rows:       25
+Columns:    72
+Non-zeros:  576
+Status:     OPTIMAL
+Objective:  costiTotali = 14.0314331 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 effetto[1]   NS             0            -0             =         < eps
+     2 effetto[2]   NS             0            -0             =         < eps
+     3 effetto[3]   NS             0            -0             =         < eps
+     4 effetto[4]   NS             0            -0             =         < eps
+     5 effetto[5]   NS             0            -0             =         < eps
+     6 effetto[6]   NS             0            -0             =         < eps
+     7 effetto[7]   NS             0            -0             =         < eps
+     8 effetto[8]   NS             0            -0             =     -0.119746 
+     9 effetto[9]   NS             0            -0             =    -0.0431842 
+    10 effetto[10]  NS             0            -0             =         < eps
+    11 effetto[11]  NS             0            -0             =         < eps
+    12 effetto[12]  NS             0            -0             =         < eps
+    13 effetto[13]  NS             0            -0             =       -0.1102 
+    14 effetto[14]  NS             0            -0             =    -0.0152553 
+    15 effetto[15]  NS             0            -0             =    -0.0942922 
+    16 effetto[16]  NS             0            -0             =         < eps
+    17 effetto[17]  NS             0            -0             =         < eps
+    18 effetto[18]  NS             0            -0             =         < eps
+    19 effetto[19]  NS             0            -0             =         < eps
+    20 effetto[20]  NS             0            -0             =     -0.111765 
+    21 effetto[21]  NS             0            -0             =         < eps
+    22 effetto[22]  NS             0            -0             =         < eps
+    23 effetto[23]  NS             0            -0             =     -0.167647 
+    24 effetto[24]  NS             0            -0             =         < eps
+    25 costiTotali  B        14.0314                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x[1,Prismil] NL             0             0                    0.594586 
+     2 x[1,Cilindren]
+                    NL             0             0                    0.893465 
+     3 x[24,Prismil]
+                    NL             0             0                    0.627172 
+     4 x[24,Cilindren]
+                    NL             0             0                    0.926051 
+     5 x[23,Prismil]
+                    NL             0             0                    0.403969 
+     6 x[23,Cilindren]
+                    NL             0             0                    0.530882 
+     7 x[22,Prismil]
+                    NL             0             0                    0.168791 
+     8 x[22,Cilindren]
+                    NL             0             0                    0.279412 
+     9 x[21,Prismil]
+                    NL             0             0                   0.0174372 
+    10 x[21,Cilindren]
+                    NL             0             0                   0.0279412 
+    11 x[20,Prismil]
+                    NL             0             0                    0.113235 
+    12 x[20,Cilindren]
+                    B        1.47869             0               
+    13 x[19,Prismil]
+                    NL             0             0                   0.0461765 
+    14 x[19,Cilindren]
+                    B        4.39368             0               
+    15 x[18,Prismil]
+                    NL             0             0                   0.0182353 
+    16 x[18,Cilindren]
+                    NL             0             0                   0.0838235 
+    17 x[17,Prismil]
+                    NL             0             0                    0.252941 
+    18 x[17,Cilindren]
+                    NL             0             0                    0.385588 
+    19 x[16,Prismil]
+                    NL             0             0                    0.370294 
+    20 x[16,Cilindren]
+                    NL             0             0                    0.547647 
+    21 x[15,Prismil]
+                    NL             0             0                    0.318268 
+    22 x[15,Cilindren]
+                    NL             0             0                    0.513093 
+    23 x[14,Prismil]
+                    NL             0             0                    0.232182 
+    24 x[14,Cilindren]
+                    NL             0             0                    0.456458 
+    25 x[2,Prismil] NL             0             0                    0.539005 
+    26 x[2,Cilindren]
+                    NL             0             0                    0.848904 
+    27 x[3,Prismil] NL             0             0                    0.465606 
+    28 x[3,Cilindren]
+                    NL             0             0                    0.740152 
+    29 x[4,Prismil] NL             0             0                    0.366484 
+    30 x[4,Cilindren]
+                    NL             0             0                    0.525986 
+    31 x[5,Prismil] NL             0             0                     0.24005 
+    32 x[5,Cilindren]
+                    NL             0             0                    0.319423 
+    33 x[6,Prismil] B        2.82353             0               
+    34 x[6,Cilindren]
+                    NL             0             0                   0.0715291 
+    35 x[7,Prismil] B        1.23529             0               
+    36 x[7,Cilindren]
+                    NL             0             0                    0.131402 
+    37 x[8,Prismil] NL             0             0                    0.155288 
+    38 x[8,Cilindren]
+                    NL             0             0                    0.264202 
+    39 x[9,Prismil] NL             0             0                    0.299017 
+    40 x[9,Cilindren]
+                    NL             0             0                    0.422551 
+    41 x[10,Prismil]
+                    NL             0             0                    0.241152 
+    42 x[10,Cilindren]
+                    NL             0             0                    0.321994 
+    43 x[11,Prismil]
+                    NL             0             0                  0.00837557 
+    44 x[11,Cilindren]
+                    B        1.19063             0               
+    45 x[12,Prismil]
+                    B        3.75928             0               
+    46 x[12,Cilindren]
+                    NL             0             0                   0.0257725 
+    47 x[13,Prismil]
+                    B        2.64131             0               
+    48 x[13,Cilindren]
+                    NL             0             0                   0.0501648 
+    49 y[1]         B        5.29362             5            45 
+    50 y[2]         B        2.79256             1            45 
+    51 y[3]         B        1.47021             0            45 
+    52 y[4]         B       0.295739             0            45 
+    53 y[5]         B              0             0            45 
+    54 y[6]         B        4.23529             0            45 
+    55 y[7]         B        10.3235             4            45 
+    56 y[8]         NL            15            15            45      0.119746 
+    57 y[9]         NL            12            12            45     0.0431842 
+    58 y[10]        B        8.45294             5            45 
+    59 y[11]        B        9.27657             4            45 
+    60 y[12]        B        14.9544             3            45 
+    61 y[13]        NL            25            25            45        0.1102 
+    62 y[14]        NL            30            30            45     0.0152553 
+    63 y[15]        NL            25            25            45     0.0942922 
+    64 y[16]        B        16.4671            15            45 
+    65 y[17]        B        11.6443             5            45 
+    66 y[18]        B        8.05688             4            45 
+    67 y[19]        B        16.4951             3            45 
+    68 y[20]        NL            25            25            45      0.111765 
+    69 y[21]        B        32.5284            30            45 
+    70 y[22]        B        27.2518            25            45 
+    71 y[23]        NL            20            20            45      0.167647 
+    72 y[24]        B        11.2907            10            45 
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 1.07e-14 on row 15
+        max.rel.err = 2.09e-16 on row 15
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 4.44e-16 on column 14
+        max.rel.err = 1.53e-16 on column 14
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
