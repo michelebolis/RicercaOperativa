@@ -1,0 +1,89 @@
+Problem:    trasporto
+Rows:       13
+Columns:    32
+Non-zeros:  96
+Status:     OPTIMAL
+Objective:  costiTotali = 5440 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 vincoloDomanda[1]
+                    NS            70            70             =            27 
+     2 vincoloDomanda[2]
+                    NS            70            70             =            24 
+     3 vincoloDomanda[3]
+                    NS            50            50             =            28 
+     4 vincoloDomanda[4]
+                    NS            80            80             =            28 
+     5 vincoloOfferta[1]
+                    NU            30                          30            -7 
+     6 vincoloOfferta[2]
+                    NU            40                          40           -12 
+     7 vincoloOfferta[3]
+                    NU            20                          20            -9 
+     8 vincoloOfferta[4]
+                    NU            35                          35            -8 
+     9 vincoloOfferta[5]
+                    NU            40                          40            -9 
+    10 vincoloOfferta[6]
+                    NU            30                          30            -7 
+    11 vincoloOfferta[7]
+                    NU            25                          25            -2 
+    12 vincoloOfferta[8]
+                    B             50                          50 
+    13 costiTotali  B           5440                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x[1,1]       B             30             0               
+     2 x[2,1]       B              5             0               
+     3 x[3,1]       B             20             0               
+     4 x[4,1]       NL             0             0                          13 
+     5 x[5,1]       NL             0             0                          13 
+     6 x[6,1]       NL             0             0                          13 
+     7 x[7,1]       B             15             0               
+     8 x[8,1]       NL             0             0                           3 
+     9 x[1,2]       NL             0             0                           8 
+    10 x[2,2]       B             35             0               
+    11 x[3,2]       NL             0             0                          26 
+    12 x[4,2]       NL             0             0                           7 
+    13 x[5,2]       NL             0             0                          25 
+    14 x[6,2]       NL             0             0                           5 
+    15 x[7,2]       NL             0             0                           7 
+    16 x[8,2]       B             35             0               
+    17 x[1,3]       NL             0             0                           9 
+    18 x[2,3]       NL             0             0                          16 
+    19 x[3,3]       NL             0             0                          17 
+    20 x[4,3]       NL             0             0                          15 
+    21 x[5,3]       B             40             0               
+    22 x[6,3]       NL             0             0                          13 
+    23 x[7,3]       B             10             0               
+    24 x[8,3]       NL             0             0                          11 
+    25 x[1,4]       NL             0             0                           7 
+    26 x[2,4]       NL             0             0                          10 
+    27 x[3,4]       NL             0             0                          18 
+    28 x[4,4]       B             35             0               
+    29 x[5,4]       NL             0             0                          19 
+    30 x[6,4]       B             30             0               
+    31 x[7,4]       NL             0             0                           1 
+    32 x[8,4]       B             15             0               
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 0.00e+00 on column 0
+        max.rel.err = 0.00e+00 on column 0
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
