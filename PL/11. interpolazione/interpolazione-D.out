@@ -1,0 +1,84 @@
+Problem:    interpolazione
+Rows:       20
+Columns:    20
+Non-zeros:  190
+Status:     OPTIMAL
+Objective:  0 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 Approssimazione[1]
+                    NS            10            10             =         < eps
+     2 Approssimazione[2]
+                    NS            20            20             =         < eps
+     3 Approssimazione[3]
+                    NS            10            10             =         < eps
+     4 Approssimazione[4]
+                    NS            15            15             =         < eps
+     5 Approssimazione[5]
+                    NS             5             5             =         < eps
+     6 Approssimazione[6]
+                    NS            10            10             =         < eps
+     7 Approssimazione[7]
+                    NS            10            10             =         < eps
+     8 Approssimazione[8]
+                    NS            20            20             =         < eps
+     9 Approssimazione[9]
+                    NS            12            12             =         < eps
+    10 Approssimazione[10]
+                    NS            25            25             =         < eps
+    11 Approssimazione[11]
+                    NS             2             2             =         < eps
+    12 Approssimazione[12]
+                    NS             5             5             =         < eps
+    13 derivate[1]  NS             0            -0             =         < eps
+    14 derivate[2]  NS             0            -0             =         < eps
+    15 derivate[3]  NS             0            -0             =         < eps
+    16 derivate[4]  NS             0            -0             =         < eps
+    17 derivate[5]  NS             0            -0             =         < eps
+    18 derivate[6]  NS             0            -0             =         < eps
+    19 derivate[7]  NS             0            -0             =         < eps
+    20 derivate[8]  NS             0            -0             =         < eps
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x[1]         B        5.08159             0               
+     2 x[2]         B        5.94396             0               
+     3 x[3]         B        1.89006             0               
+     4 x[4]         B       0.449133             0               
+     5 x[5]         B        2.28578             0               
+     6 x[6]         B        8.74401             0               
+     7 x[7]         B        2.47388             0               
+     8 x[8]         B       0.267592             0               
+     9 a[1]         B      -0.900178                             
+    10 a[2]         B    -0.00305792                             
+    11 a[3]         B      -0.555363                             
+    12 a[4]         B        1.73104                             
+    13 a[5]         B      -0.657972                             
+    14 a[6]         B      -0.274262                             
+    15 a[7]         B      -0.166607                             
+    16 a[8]         B      0.0167077                             
+    17 a[9]         B        0.52794                             
+    18 a[10]        B      -0.216209                             
+    19 a[11]        B       0.555871                             
+    20 a[12]        B      -0.143954                             
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 1.42e-14 on row 17
+        max.rel.err = 3.78e-15 on row 17
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 0.00e+00 on column 0
+        max.rel.err = 0.00e+00 on column 0
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
