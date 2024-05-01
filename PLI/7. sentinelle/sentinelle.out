@@ -1,0 +1,106 @@
+Problem:    sentinelle
+Rows:       31
+Columns:    30 (30 integer, 30 binary)
+Non-zeros:  116
+Status:     INTEGER OPTIMAL
+Objective:  nSentinelle = 11 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 copertura[1]                2             1               
+     2 copertura[2]                1             1               
+     3 copertura[3]                2             1               
+     4 copertura[4]                2             1               
+     5 copertura[5]                1             1               
+     6 copertura[6]                1             1               
+     7 copertura[7]                1             1               
+     8 copertura[8]                1             1               
+     9 copertura[9]                1             1               
+    10 copertura[10]
+                                   1             1               
+    11 copertura[11]
+                                   1             1               
+    12 copertura[12]
+                                   1             1               
+    13 copertura[13]
+                                   1             1               
+    14 copertura[14]
+                                   1             1               
+    15 copertura[15]
+                                   1             1               
+    16 copertura[16]
+                                   1             1               
+    17 copertura[17]
+                                   1             1               
+    18 copertura[18]
+                                   2             1               
+    19 copertura[19]
+                                   2             1               
+    20 copertura[20]
+                                   1             1               
+    21 copertura[21]
+                                   1             1               
+    22 copertura[22]
+                                   1             1               
+    23 copertura[23]
+                                   1             1               
+    24 copertura[24]
+                                   1             1               
+    25 copertura[25]
+                                   1             1               
+    26 copertura[26]
+                                   1             1               
+    27 copertura[27]
+                                   1             1               
+    28 copertura[28]
+                                   1             1               
+    29 copertura[29]
+                                   2             1               
+    30 copertura[30]
+                                   1             1               
+    31 nSentinelle                11                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 x[2]         *              1             0             1 
+     2 x[3]         *              0             0             1 
+     3 x[4]         *              1             0             1 
+     4 x[1]         *              1             0             1 
+     5 x[30]        *              0             0             1 
+     6 x[13]        *              0             0             1 
+     7 x[16]        *              1             0             1 
+     8 x[5]         *              0             0             1 
+     9 x[6]         *              0             0             1 
+    10 x[24]        *              1             0             1 
+    11 x[8]         *              0             0             1 
+    12 x[7]         *              0             0             1 
+    13 x[9]         *              0             0             1 
+    14 x[10]        *              1             0             1 
+    15 x[12]        *              1             0             1 
+    16 x[27]        *              0             0             1 
+    17 x[11]        *              1             0             1 
+    18 x[23]        *              0             0             1 
+    19 x[29]        *              0             0             1 
+    20 x[18]        *              0             0             1 
+    21 x[19]        *              1             0             1 
+    22 x[14]        *              0             0             1 
+    23 x[15]        *              1             0             1 
+    24 x[17]        *              0             0             1 
+    25 x[28]        *              0             0             1 
+    26 x[20]        *              1             0             1 
+    27 x[21]        *              0             0             1 
+    28 x[22]        *              0             0             1 
+    29 x[25]        *              0             0             1 
+    30 x[26]        *              0             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
