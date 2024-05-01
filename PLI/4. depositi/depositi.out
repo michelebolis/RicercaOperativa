@@ -1,0 +1,175 @@
+Problem:    depositi
+Rows:       26
+Columns:    100 (50 integer, 50 binary)
+Non-zeros:  200
+Status:     INTEGER OPTIMAL
+Objective:  costiTotali = 14534 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 vincoloCapacita[1]
+                                 175                         175 
+     2 vincoloCapacita[2]
+                                 126                         126 
+     3 vincoloCapacita[3]
+                                  57                         110 
+     4 vincoloCapacita[4]
+                                   0                          92 
+     5 vincoloCapacita[5]
+                                   0                         155 
+     6 vincoloDomanda[1]
+                                  35            35             = 
+     7 vincoloDomanda[2]
+                                  28            28             = 
+     8 vincoloDomanda[3]
+                                  49            49             = 
+     9 vincoloDomanda[4]
+                                  37            37             = 
+    10 vincoloDomanda[5]
+                                  40            40             = 
+    11 vincoloDomanda[6]
+                                  26            26             = 
+    12 vincoloDomanda[7]
+                                  31            31             = 
+    13 vincoloDomanda[8]
+                                  48            48             = 
+    14 vincoloDomanda[9]
+                                  28            28             = 
+    15 vincoloDomanda[10]
+                                  36            36             = 
+    16 vincoloSpedizione[1]
+                                   1             1             = 
+    17 vincoloSpedizione[2]
+                                   1             1             = 
+    18 vincoloSpedizione[3]
+                                   1             1             = 
+    19 vincoloSpedizione[4]
+                                   1             1             = 
+    20 vincoloSpedizione[5]
+                                   1             1             = 
+    21 vincoloSpedizione[6]
+                                   1             1             = 
+    22 vincoloSpedizione[7]
+                                   1             1             = 
+    23 vincoloSpedizione[8]
+                                   1             1             = 
+    24 vincoloSpedizione[9]
+                                   1             1             = 
+    25 vincoloSpedizione[10]
+                                   1             1             = 
+    26 costiTotali             12323                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 x[1,1]       *              0             0             1 
+     2 x[2,1]       *              0             0             1 
+     3 x[3,1]       *              0             0             1 
+     4 x[4,1]       *              0             0             1 
+     5 x[5,1]       *              1             0             1 
+     6 x[1,2]       *              0             0             1 
+     7 x[2,2]       *              0             0             1 
+     8 x[3,2]       *              0             0             1 
+     9 x[4,2]       *              0             0             1 
+    10 x[5,2]       *              1             0             1 
+    11 x[1,3]       *              0             0             1 
+    12 x[2,3]       *              0             0             1 
+    13 x[3,3]       *              0             0             1 
+    14 x[4,3]       *              0             0             1 
+    15 x[5,3]       *              1             0             1 
+    16 x[1,4]       *              0             0             1 
+    17 x[2,4]       *              0             0             1 
+    18 x[3,4]       *              0             0             1 
+    19 x[4,4]       *              0             0             1 
+    20 x[5,4]       *              1             0             1 
+    21 x[1,5]       *              0             0             1 
+    22 x[2,5]       *              0             0             1 
+    23 x[3,5]       *              0             0             1 
+    24 x[4,5]       *              0             0             1 
+    25 x[5,5]       *              1             0             1 
+    26 x[1,6]       *              0             0             1 
+    27 x[2,6]       *              0             0             1 
+    28 x[3,6]       *              0             0             1 
+    29 x[4,6]       *              0             0             1 
+    30 x[5,6]       *              1             0             1 
+    31 x[1,7]       *              0             0             1 
+    32 x[2,7]       *              0             0             1 
+    33 x[3,7]       *              0             0             1 
+    34 x[4,7]       *              0             0             1 
+    35 x[5,7]       *              1             0             1 
+    36 x[1,8]       *              0             0             1 
+    37 x[2,8]       *              0             0             1 
+    38 x[3,8]       *              0             0             1 
+    39 x[4,8]       *              0             0             1 
+    40 x[5,8]       *              1             0             1 
+    41 x[1,9]       *              0             0             1 
+    42 x[2,9]       *              0             0             1 
+    43 x[3,9]       *              0             0             1 
+    44 x[4,9]       *              0             0             1 
+    45 x[5,9]       *              1             0             1 
+    46 x[1,10]      *              0             0             1 
+    47 x[2,10]      *              0             0             1 
+    48 x[3,10]      *              0             0             1 
+    49 x[4,10]      *              0             0             1 
+    50 x[5,10]      *              1             0             1 
+    51 q[1,1]                     35             0               
+    52 q[1,2]                     28             0               
+    53 q[1,3]                     49             0               
+    54 q[1,4]                     37             0               
+    55 q[1,5]                     26             0               
+    56 q[1,6]                      0             0               
+    57 q[1,7]                      0             0               
+    58 q[1,8]                      0             0               
+    59 q[1,9]                      0             0               
+    60 q[1,10]                     0             0               
+    61 q[2,1]                      0             0               
+    62 q[2,2]                      0             0               
+    63 q[2,3]                      0             0               
+    64 q[2,4]                      0             0               
+    65 q[2,5]                     14             0               
+    66 q[2,6]                     26             0               
+    67 q[2,7]                     31             0               
+    68 q[2,8]                     48             0               
+    69 q[2,9]                      7             0               
+    70 q[2,10]                     0             0               
+    71 q[3,1]                      0             0               
+    72 q[3,2]                      0             0               
+    73 q[3,3]                      0             0               
+    74 q[3,4]                      0             0               
+    75 q[3,5]                      0             0               
+    76 q[3,6]                      0             0               
+    77 q[3,7]                      0             0               
+    78 q[3,8]                      0             0               
+    79 q[3,9]                     21             0               
+    80 q[3,10]                    36             0               
+    81 q[4,1]                      0             0               
+    82 q[4,2]                      0             0               
+    83 q[4,3]                      0             0               
+    84 q[4,4]                      0             0               
+    85 q[4,5]                      0             0               
+    86 q[4,6]                      0             0               
+    87 q[4,7]                      0             0               
+    88 q[4,8]                      0             0               
+    89 q[4,9]                      0             0               
+    90 q[4,10]                     0             0               
+    91 q[5,1]                      0             0               
+    92 q[5,2]                      0             0               
+    93 q[5,3]                      0             0               
+    94 q[5,4]                      0             0               
+    95 q[5,5]                      0             0               
+    96 q[5,6]                      0             0               
+    97 q[5,7]                      0             0               
+    98 q[5,8]                      0             0               
+    99 q[5,9]                      0             0               
+   100 q[5,10]                     0             0               
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
