@@ -1,0 +1,321 @@
+Problem:    arbitri
+Rows:       85
+Columns:    65 (45 integer, 45 binary)
+Non-zeros:  272
+Status:     INTEGER OPTIMAL
+Objective:  delta = 1 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 vincoloPresenza[1,1]
+                                   1             1             = 
+     2 vincoloPresenza[1,2]
+                                   1             1             = 
+     3 vincoloPresenza[1,3]
+                                   1             1             = 
+     4 vincoloPresenza[2,1]
+                                   1             1             = 
+     5 vincoloPresenza[2,2]
+                                   1             1             = 
+     6 vincoloPresenza[2,3]
+                                   1             1             = 
+     7 vincoloPresenza[3,1]
+                                   1             1             = 
+     8 vincoloPresenza[3,2]
+                                   1             1             = 
+     9 vincoloPresenza[3,3]
+                                   1             1             = 
+    10 vincoloPresenza[4,1]
+                                   1             1             = 
+    11 vincoloPresenza[4,2]
+                                   1             1             = 
+    12 vincoloPresenza[4,3]
+                                   1             1             = 
+    13 vincoloPresenza[5,1]
+                                   1             1             = 
+    14 vincoloPresenza[5,2]
+                                   1             1             = 
+    15 vincoloPresenza[5,3]
+                                   1             1             = 
+    16 vincoloPresenzaUnica[1,1]
+                                   1                           1 
+    17 vincoloPresenzaUnica[1,2]
+                                   1                           1 
+    18 vincoloPresenzaUnica[1,3]
+                                   1                           1 
+    19 vincoloPresenzaUnica[2,1]
+                                   1                           1 
+    20 vincoloPresenzaUnica[2,2]
+                                   1                           1 
+    21 vincoloPresenzaUnica[2,3]
+                                   1                           1 
+    22 vincoloPresenzaUnica[3,1]
+                                   1                           1 
+    23 vincoloPresenzaUnica[3,2]
+                                   1                           1 
+    24 vincoloPresenzaUnica[3,3]
+                                   1                           1 
+    25 vincoloPresenzaUnica[4,1]
+                                   1                           1 
+    26 vincoloPresenzaUnica[4,2]
+                                   1                           1 
+    27 vincoloPresenzaUnica[4,3]
+                                   1                           1 
+    28 vincoloPresenzaUnica[5,1]
+                                   1                           1 
+    29 vincoloPresenzaUnica[5,2]
+                                   1                           1 
+    30 vincoloPresenzaUnica[5,3]
+                                   1                           1 
+    31 vincoloNPresenza[1,1]
+                                   0            -0             = 
+    32 vincoloNPresenza[1,2]
+                                   0            -0             = 
+    33 vincoloNPresenza[1,3]
+                                   0            -0             = 
+    34 vincoloNPresenza[1,4]
+                                   0            -0             = 
+    35 vincoloNPresenza[1,5]
+                                   0            -0             = 
+    36 vincoloNPresenza[1,6]
+                                   0            -0             = 
+    37 vincoloNPresenza[2,1]
+                                   0            -0             = 
+    38 vincoloNPresenza[2,2]
+                                   0            -0             = 
+    39 vincoloNPresenza[2,3]
+                                   0            -0             = 
+    40 vincoloNPresenza[2,4]
+                                   0            -0             = 
+    41 vincoloNPresenza[2,5]
+                                   0            -0             = 
+    42 vincoloNPresenza[2,6]
+                                   0            -0             = 
+    43 vincoloNPresenza[3,1]
+                                   0            -0             = 
+    44 vincoloNPresenza[3,2]
+                                   0            -0             = 
+    45 vincoloNPresenza[3,3]
+                                   0            -0             = 
+    46 vincoloNPresenza[3,4]
+                                   0            -0             = 
+    47 vincoloNPresenza[3,5]
+                                   0            -0             = 
+    48 vincoloNPresenza[3,6]
+                                   0            -0             = 
+    49 vincoloMax[1,1]
+                                  -1                          -0 
+    50 vincoloMax[1,2]
+                                   0                          -0 
+    51 vincoloMax[1,3]
+                                   0                          -0 
+    52 vincoloMax[1,4]
+                                  -1                          -0 
+    53 vincoloMax[1,5]
+                                   0                          -0 
+    54 vincoloMax[1,6]
+                                   0                          -0 
+    55 vincoloMax[2,1]
+                                   0                          -0 
+    56 vincoloMax[2,2]
+                                   0                          -0 
+    57 vincoloMax[2,3]
+                                  -1                          -0 
+    58 vincoloMax[2,4]
+                                   0                          -0 
+    59 vincoloMax[2,5]
+                                  -1                          -0 
+    60 vincoloMax[2,6]
+                                   0                          -0 
+    61 vincoloMax[3,1]
+                                   0                          -0 
+    62 vincoloMax[3,2]
+                                  -1                          -0 
+    63 vincoloMax[3,3]
+                                   0                          -0 
+    64 vincoloMax[3,4]
+                                   0                          -0 
+    65 vincoloMax[3,5]
+                                   0                          -0 
+    66 vincoloMax[3,6]
+                                  -1                          -0 
+    67 vincoloMin[1,1]
+                                   0            -0               
+    68 vincoloMin[1,2]
+                                   1            -0               
+    69 vincoloMin[1,3]
+                                   1            -0               
+    70 vincoloMin[1,4]
+                                   0            -0               
+    71 vincoloMin[1,5]
+                                   1            -0               
+    72 vincoloMin[1,6]
+                                   1            -0               
+    73 vincoloMin[2,1]
+                                   1            -0               
+    74 vincoloMin[2,2]
+                                   1            -0               
+    75 vincoloMin[2,3]
+                                   0            -0               
+    76 vincoloMin[2,4]
+                                   1            -0               
+    77 vincoloMin[2,5]
+                                   0            -0               
+    78 vincoloMin[2,6]
+                                   1            -0               
+    79 vincoloMin[3,1]
+                                   1            -0               
+    80 vincoloMin[3,2]
+                                   0            -0               
+    81 vincoloMin[3,3]
+                                   1            -0               
+    82 vincoloMin[3,4]
+                                   1            -0               
+    83 vincoloMin[3,5]
+                                   1            -0               
+    84 vincoloMin[3,6]
+                                   0            -0               
+    85 delta                       1                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 presenza[1,1,1]
+                    *              0             0             1 
+     2 presenza[2,1,1]
+                    *              1             0             1 
+     3 presenza[3,1,1]
+                    *              0             0             1 
+     4 presenza[1,1,2]
+                    *              1             0             1 
+     5 presenza[2,1,2]
+                    *              0             0             1 
+     6 presenza[3,1,2]
+                    *              0             0             1 
+     7 presenza[1,1,3]
+                    *              0             0             1 
+     8 presenza[2,1,3]
+                    *              0             0             1 
+     9 presenza[3,1,3]
+                    *              1             0             1 
+    10 presenza[1,2,1]
+                    *              1             0             1 
+    11 presenza[2,2,1]
+                    *              0             0             1 
+    12 presenza[3,2,1]
+                    *              0             0             1 
+    13 presenza[1,2,2]
+                    *              0             0             1 
+    14 presenza[2,2,2]
+                    *              0             0             1 
+    15 presenza[3,2,2]
+                    *              1             0             1 
+    16 presenza[1,2,3]
+                    *              0             0             1 
+    17 presenza[2,2,3]
+                    *              1             0             1 
+    18 presenza[3,2,3]
+                    *              0             0             1 
+    19 presenza[1,3,1]
+                    *              0             0             1 
+    20 presenza[2,3,1]
+                    *              1             0             1 
+    21 presenza[3,3,1]
+                    *              0             0             1 
+    22 presenza[1,3,2]
+                    *              1             0             1 
+    23 presenza[2,3,2]
+                    *              0             0             1 
+    24 presenza[3,3,2]
+                    *              0             0             1 
+    25 presenza[1,3,3]
+                    *              0             0             1 
+    26 presenza[2,3,3]
+                    *              0             0             1 
+    27 presenza[3,3,3]
+                    *              1             0             1 
+    28 presenza[1,4,1]
+                    *              0             0             1 
+    29 presenza[2,4,1]
+                    *              0             0             1 
+    30 presenza[3,4,1]
+                    *              1             0             1 
+    31 presenza[1,4,2]
+                    *              1             0             1 
+    32 presenza[2,4,2]
+                    *              0             0             1 
+    33 presenza[3,4,2]
+                    *              0             0             1 
+    34 presenza[1,4,3]
+                    *              0             0             1 
+    35 presenza[2,4,3]
+                    *              1             0             1 
+    36 presenza[3,4,3]
+                    *              0             0             1 
+    37 presenza[1,5,1]
+                    *              0             0             1 
+    38 presenza[2,5,1]
+                    *              0             0             1 
+    39 presenza[3,5,1]
+                    *              1             0             1 
+    40 presenza[1,5,2]
+                    *              0             0             1 
+    41 presenza[2,5,2]
+                    *              1             0             1 
+    42 presenza[3,5,2]
+                    *              0             0             1 
+    43 presenza[1,5,3]
+                    *              1             0             1 
+    44 presenza[2,5,3]
+                    *              0             0             1 
+    45 presenza[3,5,3]
+                    *              0             0             1 
+    46 nPresenza[1,1]
+                                   1                             
+    47 nPresenza[1,2]
+                                   2                             
+    48 nPresenza[1,3]
+                                   2                             
+    49 nPresenza[1,4]
+                                   1                             
+    50 nPresenza[1,5]
+                                   2                             
+    51 nPresenza[1,6]
+                                   2                             
+    52 nPresenza[2,1]
+                                   2                             
+    53 nPresenza[2,2]
+                                   2                             
+    54 nPresenza[2,3]
+                                   1                             
+    55 nPresenza[2,4]
+                                   2                             
+    56 nPresenza[2,5]
+                                   1                             
+    57 nPresenza[2,6]
+                                   2                             
+    58 nPresenza[3,1]
+                                   2                             
+    59 nPresenza[3,2]
+                                   1                             
+    60 nPresenza[3,3]
+                                   2                             
+    61 nPresenza[3,4]
+                                   2                             
+    62 nPresenza[3,5]
+                                   2                             
+    63 nPresenza[3,6]
+                                   1                             
+    64 maxPresenza                 2                             
+    65 minPresenza                 1                             
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 8.88e-16 on row 48
+        max.rel.err = 8.88e-16 on row 48
+        High quality
+
+End of output
