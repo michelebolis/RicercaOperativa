@@ -1,0 +1,17 @@
+ampl: model ragno.mod;
+ampl: option solver snopt;
+ampl: solve;
+SNOPT 7.5-1.2 : Optimal solution found.
+32 iterations, objective 100.6138257
+Nonlin evals: obj = 29, grad = 28, constrs = 29, Jac = 28.
+ampl: display xx, yy, zz, obiettivo;
+:     xx        yy        zz       :=
+0   39.2914   35.8165   38.1306
+1   48.3839   23.7178   36.7565
+2   42.0151   29.8777   24.4101
+;
+
+obiettivo = 100.614
+
+ampl: display Areaminima.slack;
+Areaminima.slack = 1.28985e-08

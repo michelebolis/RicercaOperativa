@@ -1,0 +1,10 @@
+# Solution: 
+ampl: model baobab.mod;
+ampl: option solver snopt;
+ampl: solve;
+SNOPT 7.5-1.2 : Optimal solution found.
+4 iterations, objective 30.67198399
+Nonlin evals: obj = 7, grad = 6.
+ampl: display A, z;
+A = 70
+z = 30.672
