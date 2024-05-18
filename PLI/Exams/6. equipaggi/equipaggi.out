@@ -1,0 +1,136 @@
+Problem:    equipaggi
+Rows:       32
+Columns:    50 (50 integer, 50 binary)
+Non-zeros:  450
+Status:     INTEGER OPTIMAL
+Objective:  costiIdle = 8000 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 VoloCoperto[1]
+                                   1             1               
+     2 VoloCoperto[2]
+                                   1             1               
+     3 VoloCoperto[3]
+                                   1             1               
+     4 VoloCoperto[4]
+                                   3             1               
+     5 VoloCoperto[5]
+                                   1             1               
+     6 VoloCoperto[6]
+                                   1             1               
+     7 VoloCoperto[7]
+                                   1             1               
+     8 VoloCoperto[8]
+                                   2             1               
+     9 VoloCoperto[9]
+                                   2             1               
+    10 VoloCoperto[10]
+                                   1             1               
+    11 VoloCoperto[11]
+                                   1             1               
+    12 VoloCoperto[12]
+                                   1             1               
+    13 VoloCoperto[13]
+                                   4             1               
+    14 VoloCoperto[14]
+                                   3             1               
+    15 VoloCoperto[15]
+                                   5             1               
+    16 VoloCoperto[16]
+                                   2             1               
+    17 VoloCoperto[17]
+                                   2             1               
+    18 VoloCoperto[18]
+                                   1             1               
+    19 VoloCoperto[19]
+                                   3             1               
+    20 VoloCoperto[20]
+                                   2             1               
+    21 VoloCoperto[21]
+                                   3             1               
+    22 VoloCoperto[22]
+                                   1             1               
+    23 VoloCoperto[23]
+                                   2             1               
+    24 VoloCoperto[24]
+                                   2             1               
+    25 VoloCoperto[25]
+                                   2             1               
+    26 VoloCoperto[26]
+                                   1             1               
+    27 VoloCoperto[27]
+                                   1             1               
+    28 VoloCoperto[28]
+                                   2             1               
+    29 VoloCoperto[29]
+                                   1             1               
+    30 VoloCoperto[30]
+                                   1             1               
+    31 NEquipaggi                  7             7             = 
+    32 costiIdle                8000                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 x[A01]       *              0             0             1 
+     2 x[A02]       *              0             0             1 
+     3 x[A03]       *              0             0             1 
+     4 x[A04]       *              0             0             1 
+     5 x[C21]       *              0             0             1 
+     6 x[D32]       *              1             0             1 
+     7 x[B11]       *              0             0             1 
+     8 x[C22]       *              0             0             1 
+     9 x[D31]       *              0             0             1 
+    10 x[E41]       *              1             0             1 
+    11 x[A05]       *              0             0             1 
+    12 x[A06]       *              0             0             1 
+    13 x[B12]       *              0             0             1 
+    14 x[C23]       *              0             0             1 
+    15 x[E42]       *              1             0             1 
+    16 x[C24]       *              0             0             1 
+    17 x[E43]       *              0             0             1 
+    18 x[E44]       *              0             0             1 
+    19 x[B13]       *              0             0             1 
+    20 x[C25]       *              1             0             1 
+    21 x[D33]       *              0             0             1 
+    22 x[D34]       *              0             0             1 
+    23 x[E45]       *              0             0             1 
+    24 x[E46]       *              0             0             1 
+    25 x[C26]       *              1             0             1 
+    26 x[E47]       *              0             0             1 
+    27 x[E48]       *              0             0             1 
+    28 x[B14]       *              0             0             1 
+    29 x[C27]       *              0             0             1 
+    30 x[E49]       *              0             0             1 
+    31 x[B15]       *              0             0             1 
+    32 x[C28]       *              0             0             1 
+    33 x[D35]       *              0             0             1 
+    34 x[D36]       *              0             0             1 
+    35 x[E50]       *              0             0             1 
+    36 x[B16]       *              0             0             1 
+    37 x[C29]       *              0             0             1 
+    38 x[D37]       *              0             0             1 
+    39 x[D38]       *              1             0             1 
+    40 x[D39]       *              0             0             1 
+    41 x[D40]       *              0             0             1 
+    42 x[A07]       *              0             0             1 
+    43 x[A08]       *              0             0             1 
+    44 x[B17]       *              0             0             1 
+    45 x[B18]       *              0             0             1 
+    46 x[C30]       *              0             0             1 
+    47 x[B19]       *              0             0             1 
+    48 x[A09]       *              0             0             1 
+    49 x[B20]       *              1             0             1 
+    50 x[A10]       *              0             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

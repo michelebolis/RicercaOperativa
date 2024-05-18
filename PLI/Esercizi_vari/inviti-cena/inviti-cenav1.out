@@ -1,0 +1,41 @@
+Problem:    inviti
+Rows:       8
+Columns:    8 (8 integer, 8 binary)
+Non-zeros:  26
+Status:     INTEGER OPTIMAL
+Objective:  gradimentoTotale = 205 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 Relazioni[1]                1                           1 
+     2 Relazioni[2]                1                           1 
+     3 Relazioni[3]                0                           1 
+     4 Relazioni[4]                0                           1 
+     5 Relazioni[5]                1                           1 
+     6 Relazioni[6]                0                           1 
+     7 Relazioni[7]                1                           1 
+     8 gradimentoTotale
+                                 205                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 x[Samantha]  *              1             0             1 
+     2 x[Jessica]   *              0             0             1 
+     3 x[Melissa]   *              0             0             1 
+     4 x[Pamela]    *              1             0             1 
+     5 x[Grimilde]  *              0             0             1 
+     6 x[Genoveffa] *              0             0             1 
+     7 x[Naomi]     *              0             0             1 
+     8 x[Anastasia] *              1             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
