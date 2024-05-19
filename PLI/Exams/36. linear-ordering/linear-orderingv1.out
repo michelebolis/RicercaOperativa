@@ -1,0 +1,249 @@
+Problem:    linear
+Rows:       92
+Columns:    42 (42 integer, 42 binary)
+Non-zeros:  294
+Status:     INTEGER OPTIMAL
+Objective:  z = 662 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 VincoloNodi[1,2]
+                                   1             1             = 
+     2 VincoloNodi[1,3]
+                                   1             1             = 
+     3 VincoloNodi[1,4]
+                                   1             1             = 
+     4 VincoloNodi[1,5]
+                                   1             1             = 
+     5 VincoloNodi[1,6]
+                                   1             1             = 
+     6 VincoloNodi[1,7]
+                                   1             1             = 
+     7 VincoloNodi[2,3]
+                                   1             1             = 
+     8 VincoloNodi[2,4]
+                                   1             1             = 
+     9 VincoloNodi[2,5]
+                                   1             1             = 
+    10 VincoloNodi[2,6]
+                                   1             1             = 
+    11 VincoloNodi[2,7]
+                                   1             1             = 
+    12 VincoloNodi[3,4]
+                                   1             1             = 
+    13 VincoloNodi[3,5]
+                                   1             1             = 
+    14 VincoloNodi[3,6]
+                                   1             1             = 
+    15 VincoloNodi[3,7]
+                                   1             1             = 
+    16 VincoloNodi[4,5]
+                                   1             1             = 
+    17 VincoloNodi[4,6]
+                                   1             1             = 
+    18 VincoloNodi[4,7]
+                                   1             1             = 
+    19 VincoloNodi[5,6]
+                                   1             1             = 
+    20 VincoloNodi[5,7]
+                                   1             1             = 
+    21 VincoloNodi[6,7]
+                                   1             1             = 
+    22 Aciclicita[1,2,3]
+                                   2                           2 
+    23 Aciclicita[1,2,4]
+                                   1                           2 
+    24 Aciclicita[1,2,5]
+                                   1                           2 
+    25 Aciclicita[1,2,6]
+                                   1                           2 
+    26 Aciclicita[1,2,7]
+                                   1                           2 
+    27 Aciclicita[1,3,2]
+                                   1                           2 
+    28 Aciclicita[1,3,4]
+                                   1                           2 
+    29 Aciclicita[1,3,5]
+                                   1                           2 
+    30 Aciclicita[1,3,6]
+                                   1                           2 
+    31 Aciclicita[1,3,7]
+                                   1                           2 
+    32 Aciclicita[1,4,2]
+                                   2                           2 
+    33 Aciclicita[1,4,3]
+                                   2                           2 
+    34 Aciclicita[1,4,5]
+                                   2                           2 
+    35 Aciclicita[1,4,6]
+                                   2                           2 
+    36 Aciclicita[1,4,7]
+                                   1                           2 
+    37 Aciclicita[1,5,2]
+                                   2                           2 
+    38 Aciclicita[1,5,3]
+                                   2                           2 
+    39 Aciclicita[1,5,4]
+                                   1                           2 
+    40 Aciclicita[1,5,6]
+                                   2                           2 
+    41 Aciclicita[1,5,7]
+                                   1                           2 
+    42 Aciclicita[1,6,2]
+                                   2                           2 
+    43 Aciclicita[1,6,3]
+                                   2                           2 
+    44 Aciclicita[1,6,4]
+                                   1                           2 
+    45 Aciclicita[1,6,5]
+                                   1                           2 
+    46 Aciclicita[1,6,7]
+                                   1                           2 
+    47 Aciclicita[1,7,2]
+                                   2                           2 
+    48 Aciclicita[1,7,3]
+                                   2                           2 
+    49 Aciclicita[1,7,4]
+                                   2                           2 
+    50 Aciclicita[1,7,5]
+                                   2                           2 
+    51 Aciclicita[1,7,6]
+                                   2                           2 
+    52 Aciclicita[2,3,4]
+                                   2                           2 
+    53 Aciclicita[2,3,5]
+                                   2                           2 
+    54 Aciclicita[2,3,6]
+                                   2                           2 
+    55 Aciclicita[2,3,7]
+                                   2                           2 
+    56 Aciclicita[2,4,3]
+                                   1                           2 
+    57 Aciclicita[2,4,5]
+                                   2                           2 
+    58 Aciclicita[2,4,6]
+                                   2                           2 
+    59 Aciclicita[2,4,7]
+                                   1                           2 
+    60 Aciclicita[2,5,3]
+                                   1                           2 
+    61 Aciclicita[2,5,4]
+                                   1                           2 
+    62 Aciclicita[2,5,6]
+                                   2                           2 
+    63 Aciclicita[2,5,7]
+                                   1                           2 
+    64 Aciclicita[2,6,3]
+                                   1                           2 
+    65 Aciclicita[2,6,4]
+                                   1                           2 
+    66 Aciclicita[2,6,5]
+                                   1                           2 
+    67 Aciclicita[2,6,7]
+                                   1                           2 
+    68 Aciclicita[2,7,3]
+                                   1                           2 
+    69 Aciclicita[2,7,4]
+                                   2                           2 
+    70 Aciclicita[2,7,5]
+                                   2                           2 
+    71 Aciclicita[2,7,6]
+                                   2                           2 
+    72 Aciclicita[3,4,5]
+                                   2                           2 
+    73 Aciclicita[3,4,6]
+                                   2                           2 
+    74 Aciclicita[3,4,7]
+                                   1                           2 
+    75 Aciclicita[3,5,4]
+                                   1                           2 
+    76 Aciclicita[3,5,6]
+                                   2                           2 
+    77 Aciclicita[3,5,7]
+                                   1                           2 
+    78 Aciclicita[3,6,4]
+                                   1                           2 
+    79 Aciclicita[3,6,5]
+                                   1                           2 
+    80 Aciclicita[3,6,7]
+                                   1                           2 
+    81 Aciclicita[3,7,4]
+                                   2                           2 
+    82 Aciclicita[3,7,5]
+                                   2                           2 
+    83 Aciclicita[3,7,6]
+                                   2                           2 
+    84 Aciclicita[4,5,6]
+                                   2                           2 
+    85 Aciclicita[4,5,7]
+                                   2                           2 
+    86 Aciclicita[4,6,5]
+                                   1                           2 
+    87 Aciclicita[4,6,7]
+                                   2                           2 
+    88 Aciclicita[4,7,5]
+                                   1                           2 
+    89 Aciclicita[4,7,6]
+                                   1                           2 
+    90 Aciclicita[5,6,7]
+                                   2                           2 
+    91 Aciclicita[5,7,6]
+                                   1                           2 
+    92 z                         662                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 x[2,1]       *              0             0             1 
+     2 x[1,2]       *              1             0             1 
+     3 x[3,1]       *              1             0             1 
+     4 x[1,3]       *              0             0             1 
+     5 x[4,1]       *              0             0             1 
+     6 x[1,4]       *              1             0             1 
+     7 x[5,1]       *              0             0             1 
+     8 x[1,5]       *              1             0             1 
+     9 x[6,1]       *              0             0             1 
+    10 x[1,6]       *              1             0             1 
+    11 x[7,1]       *              0             0             1 
+    12 x[1,7]       *              1             0             1 
+    13 x[3,2]       *              1             0             1 
+    14 x[2,3]       *              0             0             1 
+    15 x[4,2]       *              1             0             1 
+    16 x[2,4]       *              0             0             1 
+    17 x[5,2]       *              1             0             1 
+    18 x[2,5]       *              0             0             1 
+    19 x[6,2]       *              1             0             1 
+    20 x[2,6]       *              0             0             1 
+    21 x[7,2]       *              1             0             1 
+    22 x[2,7]       *              0             0             1 
+    23 x[4,3]       *              0             0             1 
+    24 x[3,4]       *              1             0             1 
+    25 x[5,3]       *              0             0             1 
+    26 x[3,5]       *              1             0             1 
+    27 x[6,3]       *              0             0             1 
+    28 x[3,6]       *              1             0             1 
+    29 x[7,3]       *              0             0             1 
+    30 x[3,7]       *              1             0             1 
+    31 x[5,4]       *              0             0             1 
+    32 x[4,5]       *              1             0             1 
+    33 x[6,4]       *              0             0             1 
+    34 x[4,6]       *              1             0             1 
+    35 x[7,4]       *              1             0             1 
+    36 x[4,7]       *              0             0             1 
+    37 x[6,5]       *              0             0             1 
+    38 x[5,6]       *              1             0             1 
+    39 x[7,5]       *              1             0             1 
+    40 x[5,7]       *              0             0             1 
+    41 x[7,6]       *              1             0             1 
+    42 x[6,7]       *              0             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
