@@ -16,8 +16,10 @@ subject to VincoloNumero {r in Posizioni, c in Posizioni} :
   sum{numero in Posizioni} x[r, c, numero] = 1;
 # Per ogni macroarea, una sola volta un numero
 subject to Quadrato {r in MacroR, c in MacroR, numero in Posizioni}:
-  sum {i in Posizioni, j in Posizioni: (i>=(r-1)*3+1) and (i<=r*3) and (j>=(c-1)*3+1) and (j<=c*3)} x[i, j, numero] = 1;
-
+  sum {i in Posizioni, j in Posizioni: 
+    (i >= (r - 1) * 3 + 1) and (i <= r * 3) and (j >= (c - 1) * 3 + 1) and (j <= c * 3)} x[i, j, numero] = 1;
+# SE riga >= min riga della macroarea and riga <= max riga della macroarea and (speculare per la colonna)
+# -1 perchè cosi la prima n_riga_macroarea/n_colonna_macroarea è 0 * 3 + 1
 #############
 data;
 param fix :=
