@@ -5,7 +5,10 @@ The folders are divided for the 3 models studied and contains all the exercises 
 
 - `PL`
   - [Esercizi](PL)
-  - Esami
+  - [Esami risolti](PL/Exams)
 - `PLI`
   - [Esercizi](PLI)
-- PNL
+  - [Esami risolti](PLI/Exams)
+- `PNL`
+  - [Esercizi](PNL/Esercizi_vari)
+  - [Esami risolti](PNL/Exams)
