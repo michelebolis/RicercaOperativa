@@ -1,0 +1,167 @@
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
+
+Problem:    dosaggio
+Objective:  z = 0.9980558229 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 scostamento1[1]
+                    BS       -.18528      -2.66472      -2.85000        -.18333      -1.00000       1.18333 scostamento1[3]
+                                            .               +Inf        -.18528          +Inf          -Inf
+
+     2 scostamento1[2]
+                    BS       1.09806      -1.79806       -.70000        1.10000      -1.00000       -.10000 scostamento1[3]
+                                            .               +Inf        1.09806          +Inf          +Inf
+
+     3 scostamento1[3]
+                    NL      -1.50000        .           -1.50000       -1.50000       -.28393        .99806 scostamento2[3]
+                                            .28393          +Inf       -1.49315          +Inf       1.00000 vincoloMax[7]
+
+     4 scostamento1[4]
+                    BS       2.55388       -.95388       1.60000        2.55890       -.38727        .00901 vincoloMin[2]
+                                            .               +Inf        2.55388          +Inf          +Inf
+
+     5 scostamento1[5]
+                    BS      10.19806      -1.99806       8.20000       10.20000      -1.00000      -9.20000 scostamento1[3]
+                                            .               +Inf       10.18282        .12763       2.29965 vincoloMin[5]
+
+     6 scostamento1[6]
+                    BS       1.74150      -1.74150        .             1.75489       -.14509        .74538 vincoloMin[2]
+                                            .               +Inf        1.73729        .46214       1.80287 scostamento1[3]
+
+     7 scostamento1[7]
+                    NL        .40000        .             .40000         .40000       -.71607        .99806 scostamento2[7]
+                                            .71607          +Inf         .40272          +Inf       1.00000 vincoloMax[3]
+
+     8 scostamento2[1]
+                    BS       -.18528      -2.66472      -2.85000        -.18333      -1.00000       1.18333 scostamento1[3]
+                                            .               +Inf        -.18528          +Inf          -Inf
+
+     9 scostamento2[2]
+                    BS       1.09806      -1.79806       -.70000        1.10000      -1.00000       -.10000 scostamento1[3]
+                                            .               +Inf        1.09806          +Inf          +Inf
+
+    10 scostamento2[3]
+                    BS      -1.50000        .           -1.50000       -1.49315       -.28393       1.42395 scostamento1[3]
+                                            .               +Inf       -1.50000          +Inf          -Inf
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
+
+Problem:    dosaggio
+Objective:  z = 0.9980558229 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    11 scostamento2[4]
+                    BS       2.55388       -.95388       1.60000        2.55890       -.38727        .00901 vincoloMin[2]
+                                            .               +Inf        2.55388          +Inf          +Inf
+
+    12 scostamento2[5]
+                    BS      10.19806      -1.99806       8.20000       10.20000      -1.00000      -9.20000 scostamento1[3]
+                                            .               +Inf       10.18282        .12763       2.29965 vincoloMin[5]
+
+    13 scostamento2[6]
+                    BS       1.74150      -1.74150        .             1.75489       -.14509        .74538 vincoloMin[2]
+                                            .               +Inf        1.73729        .46214       1.80287 scostamento1[3]
+
+    14 scostamento2[7]
+                    BS        .40000        .             .40000         .40272       -.71607        .71163 scostamento1[7]
+                                            .               +Inf         .40000          +Inf          +Inf
+
+    15 vincoloMin[1]
+                    NL       3.55000        .            3.55000        3.49364       -.64293        .96182 x[D]
+                                            .64293          +Inf        3.55302          +Inf       1.00000 vincoloMax[7]
+
+    16 vincoloMin[2]
+                    NL    -100.00000        .         -100.00000     -110.74257       -.00104        .98693 x[C]
+                                            .00104          +Inf      -98.12268          +Inf       1.00000 vincoloMax[7]
+
+    17 vincoloMin[3]
+                    BS       1.24903       -.79903        .45000        1.25000      -2.00000      -1.50000 x[A]
+                                            .               +Inf        1.24658        .79301       1.98855 scostamento1[3]
+
+    18 vincoloMin[4]
+                    BS   -1166.86959    -633.13041   -1800.00000    -1166.18814       -.00285       4.32713 scostamento1[3]
+                                            .               +Inf    -1169.17658        .00084        .01470 vincoloMin[2]
+
+    19 vincoloMin[5]
+                    NL     -18.40000        .          -18.40000      -18.98649       -.05659        .96486 x[D]
+                                            .05659          +Inf      -18.36565          +Inf       1.00000 vincoloMax[7]
+
+    20 vincoloMin[6]
+                    BS      -4.46064      -2.53936      -7.00000       -4.42373       -.05268       1.23304 scostamento1[3]
+                                            .               +Inf       -4.52937        .02829        .87188 vincoloMin[2]
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page   3
+
+Problem:    dosaggio
+Objective:  z = 0.9980558229 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    21 vincoloMin[7]
+                    BS      23.92223     -79.92223     -56.00000       24.00000       -.02500        .40000 scostamento1[3]
+                                            .               +Inf       23.89140        .06305       2.50637 scostamento1[7]
+
+    22 vincoloMax[1]
+                    BS       3.55000       8.00000          -Inf        3.55302       -.64293      -1.28433 vincoloMin[1]
+                                            .           11.55000        3.55000          +Inf          +Inf
+
+    23 vincoloMax[2]
+                    BS    -100.00000    1800.00000          -Inf      -98.12268       -.00104       1.10162 vincoloMin[2]
+                                            .         1700.00000     -100.00000          +Inf          -Inf
+
+    24 vincoloMax[3]
+                    BS       1.24903        .00097          -Inf        1.25000      -2.00000      -1.50000 vincoloMin[1]
+                                            .            1.25000        1.24658        .79301       1.98855 scostamento1[3]
+
+    25 vincoloMax[4]
+                    BS   -1166.86959     716.86959          -Inf    -1166.18814       -.00285       4.32713 scostamento1[3]
+                                            .         -450.00000    -1169.17658        .00084        .01470 vincoloMin[2]
+
+    26 vincoloMax[5]
+                    BS     -18.40000       4.00000          -Inf      -18.36565       -.05659       2.03936 vincoloMin[5]
+                                            .          -14.40000      -18.40000          +Inf          -Inf
+
+    27 vincoloMax[6]
+                    BS      -4.46064      10.46064          -Inf       -4.42373       -.05268       1.23304 scostamento1[3]
+                                            .            6.00000       -4.52937        .02829        .87188 vincoloMin[2]
+
+    28 vincoloMax[7]
+                    BS      23.92223        .07777          -Inf       24.05000       -.02500        .40000 scostamento1[3]
+                                            .           24.00000       23.89140        .06305       2.50637 scostamento1[7]
+
+    29 z            BS        .99806       -.99806          -Inf        1.00000      -1.00000        .      scostamento1[3]
+                                            .               +Inf         .99806          +Inf          +Inf
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page   4
+
+Problem:    dosaggio
+Objective:  z = 0.9980558229 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 x[A]         NL        .             .             .             -.01355      -1.15149        .98245 x[C]
+                                           1.15149       2.00000         .00169          +Inf       1.00000 vincoloMax[7]
+
+     2 x[B]         BS       3.48094        .             .             3.49254       -.16761        .41460 scostamento1[3]
+                                            .            3.50000        3.47634        .42273       2.46955 scostamento1[7]
+
+     3 x[C]         BS        .45823        .             .              .46022       -.97895        .54947 scostamento1[7]
+                                            .             .50000         .45093        .26634       1.12010 vincoloMin[2]
+
+     4 x[D]         BS        .29115        .             .              .30108       -.19579        .94105 scostamento1[7]
+                                            .             .50000         .26610        .07763       1.02066 scostamento1[3]
+
+     5 x[E]         BS       7.29827        .             .             7.31561       -.11208        .18004 vincoloMin[2]
+                                            .            7.50000        7.29785       4.65000      34.93500 scostamento1[7]
+
+     6 maxScostamento
+                    BS        .99806       1.00000          -Inf        1.00000        .             .      scostamento1[3]
+                                            .               +Inf         .99806          +Inf          +Inf
+
+End of report

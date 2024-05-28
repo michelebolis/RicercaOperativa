@@ -1,0 +1,96 @@
+Problem:    dosaggio
+Rows:       29
+Columns:    6
+Non-zeros:  139
+Status:     OPTIMAL
+Objective:  z = 0.9980558229 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 scostamento1[1]
+                    B      -0.185278         -2.85               
+     2 scostamento1[2]
+                    B        1.09806          -0.7               
+     3 scostamento1[3]
+                    NL          -1.5          -1.5                    0.283927 
+     4 scostamento1[4]
+                    B        2.55388           1.6               
+     5 scostamento1[5]
+                    B        10.1981           8.2               
+     6 scostamento1[6]
+                    B         1.7415            -0               
+     7 scostamento1[7]
+                    NL           0.4           0.4                    0.716073 
+     8 scostamento2[1]
+                    B      -0.185278         -2.85               
+     9 scostamento2[2]
+                    B        1.09806          -0.7               
+    10 scostamento2[3]
+                    B           -1.5          -1.5               
+    11 scostamento2[4]
+                    B        2.55388           1.6               
+    12 scostamento2[5]
+                    B        10.1981           8.2               
+    13 scostamento2[6]
+                    B         1.7415            -0               
+    14 scostamento2[7]
+                    B            0.4           0.4               
+    15 vincoloMin[1]
+                    NL          3.55          3.55                    0.642926 
+    16 vincoloMin[2]
+                    NL          -100          -100                  0.00103561 
+    17 vincoloMin[3]
+                    B        1.24903          0.45               
+    18 vincoloMin[4]
+                    B       -1166.87         -1800               
+    19 vincoloMin[5]
+                    NL         -18.4         -18.4                   0.0565929 
+    20 vincoloMin[6]
+                    B       -4.46064            -7               
+    21 vincoloMin[7]
+                    B        23.9222           -56               
+    22 vincoloMax[1]
+                    B           3.55                       11.55 
+    23 vincoloMax[2]
+                    B           -100                        1700 
+    24 vincoloMax[3]
+                    B        1.24903                        1.25 
+    25 vincoloMax[4]
+                    B       -1166.87                        -450 
+    26 vincoloMax[5]
+                    B          -18.4                       -14.4 
+    27 vincoloMax[6]
+                    B       -4.46064                           6 
+    28 vincoloMax[7]
+                    B        23.9222                          24 
+    29 z            B       0.998056                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x[A]         NL             0             0             2       1.15149 
+     2 x[B]         B        3.48094             0           3.5 
+     3 x[C]         B       0.458229             0           0.5 
+     4 x[D]         B       0.291145             0           0.5 
+     5 x[E]         B        7.29827             0           7.5 
+     6 maxScostamento
+                    B       0.998056                             
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 1.42e-14 on row 16
+        max.rel.err = 3.01e-16 on row 3
+        High quality
+
+KKT.PB: max.abs.err = 1.11e-16 on row 14
+        max.rel.err = 7.93e-17 on row 14
+        High quality
+
+KKT.DE: max.abs.err = 4.44e-16 on column 6
+        max.rel.err = 1.48e-16 on column 6
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
