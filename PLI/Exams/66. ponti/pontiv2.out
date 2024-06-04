@@ -1,0 +1,143 @@
+Problem:    pontiv2
+Rows:       47
+Columns:    25 (24 integer, 24 binary)
+Non-zeros:  105
+Status:     INTEGER OPTIMAL
+Objective:  distanzaMedia = 15 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 vincoloCostruibili
+                                   2                           2 
+     2 pontiCostruiti[A,1]
+                                   0            -0               
+     3 pontiCostruiti[A,2]
+                                   0            -0               
+     4 pontiCostruiti[A,3]
+                                   1            -0               
+     5 pontiCostruiti[A,4]
+                                   0            -0               
+     6 pontiCostruiti[B,1]
+                                   0            -0               
+     7 pontiCostruiti[B,2]
+                                   0            -0               
+     8 pontiCostruiti[B,3]
+                                   1            -0               
+     9 pontiCostruiti[B,4]
+                                   0            -0               
+    10 pontiCostruiti[C,1]
+                                   1            -0               
+    11 pontiCostruiti[C,2]
+                                   0            -0               
+    12 pontiCostruiti[C,3]
+                                   0            -0               
+    13 pontiCostruiti[C,4]
+                                   0            -0               
+    14 pontiCostruiti[D,1]
+                                   1            -0               
+    15 pontiCostruiti[D,2]
+                                   0            -0               
+    16 pontiCostruiti[D,3]
+                                   0            -0               
+    17 pontiCostruiti[D,4]
+                                   0            -0               
+    18 pontiCostruiti[E,1]
+                                   1            -0               
+    19 pontiCostruiti[E,2]
+                                   0            -0               
+    20 pontiCostruiti[E,3]
+                                   0            -0               
+    21 pontiCostruiti[E,4]
+                                   0            -0               
+    22 utilizzoPonte[A]
+                                   1             1               
+    23 utilizzoPonte[B]
+                                   1             1               
+    24 utilizzoPonte[C]
+                                   1             1               
+    25 utilizzoPonte[D]
+                                   1             1               
+    26 utilizzoPonte[E]
+                                   1             1               
+    27 vincoloMassimo[1,A]
+                                   3            -0               
+    28 vincoloMassimo[1,B]
+                                   6            -0               
+    29 vincoloMassimo[1,C]
+                                  15            -0               
+    30 vincoloMassimo[1,D]
+                                  15            -0               
+    31 vincoloMassimo[1,E]
+                                  15            -0               
+    32 vincoloMassimo[2,A]
+                                  15            -0               
+    33 vincoloMassimo[2,B]
+                                  15            -0               
+    34 vincoloMassimo[2,C]
+                                  15            -0               
+    35 vincoloMassimo[2,D]
+                                  15            -0               
+    36 vincoloMassimo[2,E]
+                                  15            -0               
+    37 vincoloMassimo[3,A]
+                                  15            -0               
+    38 vincoloMassimo[3,B]
+                                  15            -0               
+    39 vincoloMassimo[3,C]
+                                   3            -0               
+    40 vincoloMassimo[3,D]
+                                   0            -0               
+    41 vincoloMassimo[3,E]
+                                   5            -0               
+    42 vincoloMassimo[4,A]
+                                  15            -0               
+    43 vincoloMassimo[4,B]
+                                  15            -0               
+    44 vincoloMassimo[4,C]
+                                  15            -0               
+    45 vincoloMassimo[4,D]
+                                  15            -0               
+    46 vincoloMassimo[4,E]
+                                  15            -0               
+    47 distanzaMedia
+                                  15                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 x[1]         *              1             0             1 
+     2 x[2]         *              0             0             1 
+     3 x[3]         *              1             0             1 
+     4 x[4]         *              0             0             1 
+     5 y[A,1]       *              1             0             1 
+     6 y[A,2]       *              0             0             1 
+     7 y[A,3]       *              0             0             1 
+     8 y[A,4]       *              0             0             1 
+     9 y[B,1]       *              1             0             1 
+    10 y[B,2]       *              0             0             1 
+    11 y[B,3]       *              0             0             1 
+    12 y[B,4]       *              0             0             1 
+    13 y[C,1]       *              0             0             1 
+    14 y[C,2]       *              0             0             1 
+    15 y[C,3]       *              1             0             1 
+    16 y[C,4]       *              0             0             1 
+    17 y[D,1]       *              0             0             1 
+    18 y[D,2]       *              0             0             1 
+    19 y[D,3]       *              1             0             1 
+    20 y[D,4]       *              0             0             1 
+    21 y[E,1]       *              0             0             1 
+    22 y[E,2]       *              0             0             1 
+    23 y[E,3]       *              1             0             1 
+    24 y[E,4]       *              0             0             1 
+    25 massimo                    15                             
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 8.88e-15 on row 40
+        max.rel.err = 8.88e-15 on row 40
+        High quality
+
+End of output
