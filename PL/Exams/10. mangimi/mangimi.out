@@ -1,0 +1,136 @@
+Problem:    mangimi
+Rows:       32
+Columns:    45
+Non-zeros:  144
+Status:     OPTIMAL
+Objective:  z = 10135 (MAXimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 Produzione[1,1]
+                    NS             0            -0             =            10 
+     2 Produzione[1,2]
+                    NS             0            -0             =            10 
+     3 Produzione[1,3]
+                    NS             0            -0             =            10 
+     4 Produzione[2,1]
+                    NS             0            -0             =            10 
+     5 Produzione[2,2]
+                    NS             0            -0             =            10 
+     6 Produzione[2,3]
+                    NS             0            -0             =            10 
+     7 Produzione[3,1]
+                    NS             0            -0             =            55 
+     8 Produzione[3,2]
+                    NS             0            -0             =            55 
+     9 Produzione[3,3]
+                    NS             0            -0             =            55 
+    10 Produzione[4,1]
+                    NS             0            -0             =            65 
+    11 Produzione[4,2]
+                    NS             0            -0             =            65 
+    12 Produzione[4,3]
+                    NS             0            -0             =            65 
+    13 Produzione[5,1]
+                    NS             0            -0             =            40 
+    14 Produzione[5,2]
+                    NS             0            -0             =            40 
+    15 Produzione[5,3]
+                    NS             0            -0             =            40 
+    16 Consumi[1]   B          110.6                         150 
+    17 Consumi[2]   B           76.5                         135 
+    18 Consumi[3]   B          40.25                          90 
+    19 Consumi[4]   B          58.65                          75 
+    20 NonSovrapposizioneLinea[1,2]
+                    NL             0            -0                       -1.25 
+    21 NonSovrapposizioneLinea[1,3]
+                    NL             0            -0                       -1.25 
+    22 NonSovrapposizioneLinea[1,4]
+                    NL             0            -0                        -5.5 
+    23 NonSovrapposizioneLinea[1,5]
+                    NL             0            -0                        -6.5 
+    24 NonSovrapposizioneLinea[2,2]
+                    NL             0            -0                          -2 
+    25 NonSovrapposizioneLinea[2,3]
+                    NL             0            -0                          -2 
+    26 NonSovrapposizioneLinea[2,4]
+                    NL             0            -0                        -5.5 
+    27 NonSovrapposizioneLinea[2,5]
+                    NL             0            -0                          -8 
+    28 NonSovrapposizioneLinea[3,2]
+                    NL             0            -0                          -5 
+    29 NonSovrapposizioneLinea[3,3]
+                    NL             0            -0                          -5 
+    30 NonSovrapposizioneLinea[3,4]
+                    NL             0            -0                         -13 
+    31 NonSovrapposizioneLinea[3,5]
+                    NL             0            -0                          -8 
+    32 z            B          10135                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 s[1,1]       NL             0             0                          -2 
+     2 s[1,2]       NL             0             0                        -2.5 
+     3 s[1,3]       NL             0             0                          -5 
+     4 s[2,1]       B            120            30               
+     5 s[2,2]       B            120            30               
+     6 s[2,3]       B            120            30               
+     7 s[3,1]       NL           120           120                       -4.25 
+     8 s[3,2]       NL           120           120                        -3.5 
+     9 s[3,3]       NL           120           120                       -22.5 
+    10 s[4,1]       NL           225           225                          -1 
+    11 s[4,2]       NL           225           225                        -7.5 
+    12 s[4,3]       B            270           225               
+    13 s[5,1]       NL           285           285                    -6.83333 
+    14 s[5,2]       B            300           285               
+    15 s[5,3]       B            300           285               
+    16 e[1,1]       NU           120                         120          0.75 
+    17 e[1,2]       NU           120                         120           0.5 
+    18 e[1,3]       NU           120                         120         < eps
+    19 e[2,1]       B            120                         180 
+    20 e[2,2]       B            120                         180 
+    21 e[2,3]       B            120                         180 
+    22 e[3,1]       B            225                         270 
+    23 e[3,2]       B            225                         270 
+    24 e[3,3]       NU           270                         270          14.5 
+    25 e[4,1]       B            285                         300 
+    26 e[4,2]       NU           300                         300             5 
+    27 e[4,3]       NU           300                         300             5 
+    28 e[5,1]       NU           360                         360       13.3333 
+    29 e[5,2]       NU           360                         360             8 
+    30 e[5,3]       NU           360                         360             8 
+    31 x[1,1]       B             24             0               
+    32 x[1,2]       B             30             0               
+    33 x[1,3]       B             60             0               
+    34 x[2,1]       B              0             0               
+    35 x[2,2]       B              0             0               
+    36 x[2,3]       B              0             0               
+    37 x[3,1]       B           10.5             0               
+    38 x[3,2]       B           10.5             0               
+    39 x[3,3]       B             75             0               
+    40 x[4,1]       B              6             0               
+    41 x[4,2]       B             15             0               
+    42 x[4,3]       B              6             0               
+    43 x[5,1]       B             25             0               
+    44 x[5,2]       B             12             0               
+    45 x[5,3]       B             12             0               
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 5.68e-14 on row 22
+        max.rel.err = 1.77e-16 on row 28
+        High quality
+
+KKT.PB: max.abs.err = 1.44e-14 on column 36
+        max.rel.err = 1.44e-14 on column 36
+        High quality
+
+KKT.DE: max.abs.err = 7.11e-15 on column 38
+        max.rel.err = 1.04e-16 on column 15
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
