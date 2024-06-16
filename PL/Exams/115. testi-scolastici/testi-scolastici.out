@@ -1,0 +1,59 @@
+Problem:    testi
+Rows:       8
+Columns:    12
+Non-zeros:  36
+Status:     OPTIMAL
+Objective:  costiTotali = 10670 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 disponibilitaMagazzino[TO]
+                    B           1200                        1200 
+     2 disponibilitaMagazzino[NA]
+                    NU          1400                        1400          -0.1 
+     3 disponibilitaMagazzino[PA]
+                    NU           800                         800          -0.7 
+     4 domandaSoddisfatta[MI]
+                    NL          1000          1000                         6.5 
+     5 domandaSoddisfatta[BO]
+                    NL          1200          1200                         2.6 
+     6 domandaSoddisfatta[RM]
+                    NL           700           700                         1.7 
+     7 domandaSoddisfatta[BA]
+                    NL           500           500                         1.6 
+     8 costiTotali  B          10670                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x[TO,MI]     NL             0             0           500             1 
+     2 x[TO,BO]     B            400             0          1000 
+     3 x[TO,RM]     B            700             0          1000 
+     4 x[TO,BA]     B            100             0          1000 
+     5 x[NA,MI]     B            200             0           500 
+     6 x[NA,BO]     NU           800             0           800          -0.3 
+     7 x[NA,RM]     NL             0             0           800           0.4 
+     8 x[NA,BA]     B            400             0           800 
+     9 x[PA,MI]     B            800             0           800 
+    10 x[PA,BO]     NL             0             0           600           0.5 
+    11 x[PA,RM]     NL             0             0           600           0.8 
+    12 x[PA,BA]     NL             0             0           600           0.5 
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 4.44e-16 on column 2
+        max.rel.err = 1.06e-16 on column 4
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
