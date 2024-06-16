@@ -1,0 +1,604 @@
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
+
+Problem:    ucp2
+Objective:  costoTotale = 3220 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 Domanda[1]   NS     200.00000        .          200.00000      180.00000          -Inf    3160.00000 prodMinima[2,1]
+                                           3.00000     200.00000      260.00000          +Inf    3400.00000 prodMassima[2,1]
+
+     2 Domanda[2]   NS     180.00000        .          180.00000      110.00000          -Inf    3010.00000 prodMinima[2,2]
+                                           3.00000     180.00000      190.00000          +Inf    3250.00000 prodMassima[2,2]
+
+     3 Domanda[3]   NS     150.00000        .          150.00000      130.00000          -Inf    3160.00000 prodMinima[2,1]
+                                           3.00000     150.00000      180.00000          +Inf    3310.00000 acqua[2,2]
+
+     4 Domanda[5]   NS     250.00000        .          250.00000      230.00000          -Inf    3160.00000 prodMinima[2,1]
+                                           3.00000     250.00000      280.00000          +Inf    3310.00000 acqua[2,4]
+
+     5 Domanda[6]   NS     250.00000        .          250.00000      230.00000          -Inf    3160.00000 prodMinima[2,1]
+                                           3.00000     250.00000      280.00000          +Inf    3310.00000 acqua[2,4]
+
+     6 Domanda[7]   NS     180.00000        .          180.00000      160.00000          -Inf    3160.00000 prodMinima[2,1]
+                                           3.00000     180.00000      210.00000          +Inf    3310.00000 acqua[2,4]
+
+     7 Domanda4     NS     200.00000        .          200.00000      200.00000          -Inf    3220.00000 acquaTrasformata[3,4]
+                                           3.00000     200.00000      205.00000          +Inf    3235.00000 acqua[3,4]
+
+     8 giorno1[1]   NS     700.00000        .          700.00000      400.00000          -Inf    3265.00000 acquaTrasformata[1,1]
+                                           -.15000     700.00000     1100.00000          +Inf    3160.00000 prodMinima[2,1]
+
+     9 giorno1[2]   NS    1900.00000        .         1900.00000     1000.00000          -Inf    3355.00000 acquaTrasformata[2,1]
+                                           -.15000    1900.00000     2300.00000          +Inf    3160.00000 prodMinima[2,1]
+
+    10 giorno1[3]   NS     200.00000        .          200.00000         .               -Inf    3250.00000 acquaTrasformata[3,1]
+                                           -.15000     200.00000      600.00000          +Inf    3160.00000 prodMinima[2,1]
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
+
+Problem:    ucp2
+Objective:  costoTotale = 3220 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    11 vincoloAcqua[1,2]
+                    NS     200.00000        .          200.00000         .               -Inf    3250.00000 acqua[1,1]
+                                           -.15000     200.00000      600.00000          +Inf    3160.00000 acqua[1,1]
+
+    12 vincoloAcqua[1,3]
+                    NS     200.00000        .          200.00000         .               -Inf    3250.00000 acquaTrasformata[1,3]
+                                           -.15000     200.00000      600.00000          +Inf    3160.00000 prodMinima[2,1]
+
+    13 vincoloAcqua[1,4]
+                    NS     200.00000        .          200.00000      100.00000          -Inf    3235.00000 acqua[3,4]
+                                           -.15000     200.00000      200.00000          +Inf    3220.00000 acquaTrasformata[3,4]
+
+    14 vincoloAcqua[1,5]
+                    NS     200.00000        .          200.00000         .               -Inf    3250.00000 acquaTrasformata[1,5]
+                                           -.15000     200.00000      600.00000          +Inf    3160.00000 prodMinima[2,1]
+
+    15 vincoloAcqua[1,6]
+                    NS     200.00000        .          200.00000         .               -Inf    3250.00000 acquaTrasformata[1,6]
+                                           -.15000     200.00000      600.00000          +Inf    3160.00000 prodMinima[2,1]
+
+    16 vincoloAcqua[1,7]
+                    NS     200.00000        .          200.00000     -400.00000          -Inf    3310.00000 acqua[2,4]
+                                           -.15000     200.00000      600.00000          +Inf    3160.00000 prodMinima[2,1]
+
+    17 vincoloAcqua[2,2]
+                    NS     400.00000        .          400.00000     -500.00000          -Inf    3355.00000 acquaTrasformata[2,1]
+                                           -.15000     400.00000      800.00000          +Inf    3160.00000 prodMinima[2,1]
+
+    18 vincoloAcqua[2,3]
+                    NS     400.00000        .          400.00000     -200.00000          -Inf    3310.00000 acqua[2,2]
+                                           -.15000     400.00000      800.00000          +Inf    3160.00000 prodMinima[2,1]
+
+    19 vincoloAcqua[2,4]
+                    NS     400.00000        .          400.00000     -200.00000          -Inf    3310.00000 acqua[2,2]
+                                           -.15000     400.00000      800.00000          +Inf    3160.00000 prodMinima[2,1]
+
+    20 vincoloAcqua[2,5]
+                    NS     400.00000        .          400.00000     -200.00000          -Inf    3310.00000 acqua[2,4]
+                                           -.15000     400.00000      800.00000          +Inf    3160.00000 prodMinima[2,1]
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page   3
+
+Problem:    ucp2
+Objective:  costoTotale = 3220 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    21 vincoloAcqua[2,6]
+                    NS     400.00000        .          400.00000     -200.00000          -Inf    3310.00000 acqua[2,4]
+                                           -.15000     400.00000      800.00000          +Inf    3160.00000 prodMinima[2,1]
+
+    22 vincoloAcqua[2,7]
+                    NS     400.00000        .          400.00000     -200.00000          -Inf    3310.00000 acqua[2,4]
+                                           -.15000     400.00000      800.00000          +Inf    3160.00000 prodMinima[2,1]
+
+    23 vincoloAcqua[3,2]
+                    NS     100.00000        .          100.00000         .               -Inf    3235.00000 acqua[3,2]
+                                           -.15000     100.00000      300.00000          +Inf    3190.00000 acqua[3,2]
+
+    24 vincoloAcqua[3,3]
+                    NS     100.00000        .          100.00000     -100.00000          -Inf    3250.00000 acquaTrasformata[3,3]
+                                           -.15000     100.00000      500.00000          +Inf    3160.00000 prodMinima[2,1]
+
+    25 vincoloAcqua[3,4]
+                    NS     100.00000        .          100.00000         .               -Inf    3235.00000 acqua[3,4]
+                                           -.15000     100.00000      300.00000          +Inf    3190.00000 acqua[3,4]
+
+    26 vincoloAcqua[3,5]
+                    NS     100.00000        .          100.00000     -100.00000          -Inf    3250.00000 acquaTrasformata[3,5]
+                                           -.15000     100.00000      500.00000          +Inf    3160.00000 prodMinima[2,1]
+
+    27 vincoloAcqua[3,6]
+                    NS     100.00000        .          100.00000         .               -Inf    3235.00000 acquaTrasformata[3,6]
+                                           -.15000     100.00000      500.00000          +Inf    3160.00000 prodMinima[2,1]
+
+    28 vincoloAcqua[3,7]
+                    NS     100.00000        .          100.00000         .               -Inf    3235.00000 acquaTrasformata[3,7]
+                                           -.15000     100.00000      500.00000          +Inf    3160.00000 prodMinima[2,1]
+
+    29 prodMinima[1,1]
+                    BS      90.00000     -80.00000      10.00000       90.00000          -Inf          -Inf
+                                            .               +Inf       30.00000       1.00000    3310.00000 energia[1,1]
+
+    30 prodMinima[1,2]
+                    BS      90.00000     -80.00000      10.00000       90.00000          -Inf          -Inf
+                                            .               +Inf       80.00000       1.00000    3310.00000 energia[1,2]
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page   4
+
+Problem:    ucp2
+Objective:  costoTotale = 3220 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    31 prodMinima[1,3]
+                    BS      90.00000     -80.00000      10.00000       90.00000          -Inf          -Inf
+                                            .               +Inf       60.00000       1.00000    3310.00000 energia[1,3]
+
+    32 prodMinima[1,4]
+                    BS      90.00000     -80.00000      10.00000       90.00000          -Inf          -Inf
+                                            .               +Inf       85.00000       1.00000    3310.00000 energia[1,4]
+
+    33 prodMinima[1,5]
+                    BS      90.00000     -80.00000      10.00000       90.00000          -Inf          -Inf
+                                            .               +Inf       60.00000       1.00000    3310.00000 energia[1,5]
+
+    34 prodMinima[1,6]
+                    BS      90.00000     -80.00000      10.00000       90.00000          -Inf          -Inf
+                                            .               +Inf       60.00000       1.00000    3310.00000 energia[1,6]
+
+    35 prodMinima[1,7]
+                    BS      90.00000     -80.00000      10.00000       90.00000          -Inf          -Inf
+                                            .               +Inf       60.00000       1.00000    3310.00000 energia[1,7]
+
+    36 prodMinima[2,1]
+                    BS      40.00000     -20.00000      20.00000       70.00000        .         3220.00000 energia[2,5]
+                                            .               +Inf       40.00000       2.00000    3300.00000 prodMinima[3,3]
+
+    37 prodMinima[2,2]
+                    BS      90.00000     -70.00000      20.00000      100.00000      -1.00000    3130.00000 energia[1,2]
+                                            .               +Inf       45.00000        .         3220.00000 acquaTrasformata[2,2]
+
+    38 prodMinima[2,3]
+                    BS        .             .             .              .               -Inf    3220.00000
+                                            .               +Inf      -30.00000        .         3220.00000 prodMassima[2,3]
+
+    39 prodMinima[2,4]
+                    BS     100.00000     -80.00000      20.00000      100.00000          -Inf          -Inf
+                                            .               +Inf       95.00000        .         3220.00000 energia[2,4]
+
+    40 prodMinima[2,5]
+                    BS     100.00000     -80.00000      20.00000      100.00000          -Inf          -Inf
+                                            .               +Inf       70.00000        .         3220.00000 energia[2,5]
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page   5
+
+Problem:    ucp2
+Objective:  costoTotale = 3220 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    41 prodMinima[2,6]
+                    BS     100.00000     -80.00000      20.00000      100.00000          -Inf          -Inf
+                                            .               +Inf       70.00000        .         3220.00000 energia[2,6]
+
+    42 prodMinima[2,7]
+                    BS        .             .             .              .               -Inf    3220.00000
+                                            .               +Inf      -30.00000        .         3220.00000 prodMassima[2,7]
+
+    43 prodMinima[3,1]
+                    NL        .             .             .           -60.00000      -2.00000    3100.00000 prodMassima[2,1]
+                                           2.00000          +Inf         .               +Inf    3220.00000 prodMassima[3,1]
+
+    44 prodMinima[3,2]
+                    NL        .             .             .           -10.00000      -2.00000    3200.00000 prodMassima[2,2]
+                                           2.00000          +Inf         .               +Inf    3220.00000 prodMassima[3,2]
+
+    45 prodMinima[3,3]
+                    NL        .             .             .           -30.00000      -2.00000    3160.00000 acqua[2,2]
+                                           2.00000          +Inf         .               +Inf    3220.00000 prodMassima[3,3]
+
+    46 prodMinima[3,4]
+                    NL        .             .             .            -5.00000      -2.00000    3210.00000 acqua[3,4]
+                                           2.00000          +Inf         .               +Inf    3220.00000 prodMassima[3,4]
+
+    47 prodMinima[3,5]
+                    NL        .             .             .           -30.00000      -2.00000    3160.00000 acqua[2,4]
+                                           2.00000          +Inf         .               +Inf    3220.00000 prodMassima[3,5]
+
+    48 prodMinima[3,6]
+                    NL        .             .             .           -30.00000      -2.00000    3160.00000 acqua[2,4]
+                                           2.00000          +Inf         .               +Inf    3220.00000 prodMassima[3,6]
+
+    49 prodMinima[3,7]
+                    NL        .             .             .           -30.00000      -2.00000    3160.00000 acqua[2,4]
+                                           2.00000          +Inf         .               +Inf    3220.00000 prodMassima[3,7]
+
+    50 prodMassima[1,1]
+                    BS      90.00000        .               -Inf       90.00000          -Inf          -Inf
+                                            .           90.00000       30.00000       1.00000    3310.00000 energia[1,1]
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page   6
+
+Problem:    ucp2
+Objective:  costoTotale = 3220 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    51 prodMassima[1,2]
+                    BS      90.00000        .               -Inf       90.00000          -Inf          -Inf
+                                            .           90.00000       80.00000       1.00000    3310.00000 energia[1,2]
+
+    52 prodMassima[1,3]
+                    BS      90.00000        .               -Inf       90.00000          -Inf          -Inf
+                                            .           90.00000       60.00000       1.00000    3310.00000 energia[1,3]
+
+    53 prodMassima[1,4]
+                    BS      90.00000        .               -Inf       90.00000          -Inf          -Inf
+                                            .           90.00000       85.00000       1.00000    3310.00000 energia[1,4]
+
+    54 prodMassima[1,5]
+                    BS      90.00000        .               -Inf       90.00000          -Inf          -Inf
+                                            .           90.00000       60.00000       1.00000    3310.00000 energia[1,5]
+
+    55 prodMassima[1,6]
+                    BS      90.00000        .               -Inf       90.00000          -Inf          -Inf
+                                            .           90.00000       60.00000       1.00000    3310.00000 energia[1,6]
+
+    56 prodMassima[1,7]
+                    BS      90.00000        .               -Inf       90.00000          -Inf          -Inf
+                                            .           90.00000       60.00000       1.00000    3310.00000 energia[1,7]
+
+    57 prodMassima[2,1]
+                    BS      40.00000      60.00000          -Inf       70.00000        .         3220.00000 energia[2,5]
+                                            .          100.00000       40.00000       2.00000    3300.00000 prodMinima[3,3]
+
+    58 prodMassima[2,2]
+                    BS      90.00000      10.00000          -Inf      100.00000      -1.00000    3130.00000 energia[1,2]
+                                            .          100.00000       45.00000        .         3220.00000 acquaTrasformata[2,2]
+
+    59 prodMassima[2,3]
+                    NU        .             .               -Inf         .               -Inf    3220.00000 prodMinima[2,3]
+                                            .             .            20.00000        .         3220.00000 prodMinima[2,1]
+
+    60 prodMassima[2,4]
+                    BS     100.00000        .               -Inf      100.00000          -Inf          -Inf
+                                            .          100.00000       95.00000        .         3220.00000 energia[2,4]
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page   7
+
+Problem:    ucp2
+Objective:  costoTotale = 3220 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    61 prodMassima[2,5]
+                    BS     100.00000        .               -Inf      100.00000          -Inf          -Inf
+                                            .          100.00000       70.00000        .         3220.00000 energia[2,5]
+
+    62 prodMassima[2,6]
+                    BS     100.00000        .               -Inf      100.00000          -Inf          -Inf
+                                            .          100.00000       70.00000        .         3220.00000 energia[2,6]
+
+    63 prodMassima[2,7]
+                    NU        .             .               -Inf         .               -Inf    3220.00000 prodMinima[2,7]
+                                            .             .            20.00000        .         3220.00000 prodMinima[2,1]
+
+    64 prodMassima[3,1]
+                    BS        .             .               -Inf       20.00000      -2.00000    3220.00000 prodMinima[3,1]
+                                            .             .              .               +Inf    3220.00000
+
+    65 prodMassima[3,2]
+                    BS        .             .               -Inf       20.00000      -2.00000    3220.00000 prodMinima[3,2]
+                                            .             .              .               +Inf    3220.00000
+
+    66 prodMassima[3,3]
+                    BS        .             .               -Inf       20.00000      -2.00000    3220.00000 prodMinima[3,3]
+                                            .             .              .               +Inf    3220.00000
+
+    67 prodMassima[3,4]
+                    BS        .             .               -Inf         .           -2.00000    3220.00000 prodMinima[3,4]
+                                            .             .              .               +Inf    3220.00000
+
+    68 prodMassima[3,5]
+                    BS        .             .               -Inf       20.00000      -2.00000    3220.00000 prodMinima[3,5]
+                                            .             .              .               +Inf    3220.00000
+
+    69 prodMassima[3,6]
+                    BS        .             .               -Inf       20.00000      -2.00000    3220.00000 prodMinima[3,6]
+                                            .             .              .               +Inf    3220.00000
+
+    70 prodMassima[3,7]
+                    BS        .             .               -Inf       20.00000      -2.00000    3220.00000 prodMinima[3,7]
+                                            .             .              .               +Inf    3220.00000
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page   8
+
+Problem:    ucp2
+Objective:  costoTotale = 3220 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    71 costoTotale  BS    2550.00000   -2550.00000          -Inf     2580.00000      -1.00000     670.00000 energia[1,5]
+                                            .               +Inf     2550.00000          +Inf          +Inf
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page   9
+
+Problem:    ucp2
+Objective:  costoTotale = 3220 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 energia[1,1] NU      90.00000       2.00000          -Inf       30.00000          -Inf    3280.00000 prodMassima[2,1]
+                                          -1.00000      90.00000       90.00000       3.00000    3220.00000 prodMassima[1,1]
+
+     2 energia[2,1] BS      40.00000       3.00000          -Inf       70.00000       3.00000    3220.00000 energia[2,5]
+                                            .          100.00000       40.00000       5.00000    3300.00000 prodMinima[3,3]
+
+     3 energia[3,1] BS        .            5.00000          -Inf         .            3.00000    3220.00000 prodMinima[3,1]
+                                            .           20.00000         .               +Inf    3220.00000
+
+     4 energia[1,2] NU      90.00000       2.00000          -Inf       80.00000          -Inf    3230.00000 prodMassima[2,2]
+                                          -1.00000      90.00000       90.00000       3.00000    3220.00000 prodMassima[1,2]
+
+     5 energia[2,2] BS      90.00000       3.00000          -Inf      100.00000       2.00000    3130.00000 energia[1,2]
+                                            .          100.00000       45.00000       3.00000    3220.00000 acquaTrasformata[2,2]
+
+     6 energia[3,2] BS        .            5.00000          -Inf         .            3.00000    3220.00000 prodMinima[3,2]
+                                            .           20.00000         .               +Inf    3220.00000
+
+     7 energia[1,3] NU      90.00000       2.00000          -Inf       60.00000          -Inf    3250.00000 acqua[2,2]
+                                          -1.00000      90.00000       90.00000       3.00000    3220.00000 prodMassima[1,3]
+
+     8 energia[2,3] BS        .            3.00000          -Inf         .               -Inf    3220.00000
+                                            .          100.00000         .            3.00000    3220.00000 prodMassima[2,3]
+
+     9 energia[3,3] BS        .            5.00000          -Inf         .            3.00000    3220.00000 prodMinima[3,3]
+                                            .           20.00000         .               +Inf    3220.00000
+
+    10 energia[1,5] NU      90.00000       2.00000          -Inf       60.00000          -Inf    3250.00000 acqua[2,4]
+                                          -1.00000      90.00000       90.00000       3.00000    3220.00000 prodMassima[1,5]
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page  10
+
+Problem:    ucp2
+Objective:  costoTotale = 3220 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    11 energia[2,5] NU     100.00000       3.00000          -Inf       70.00000          -Inf    3220.00000 acqua[2,4]
+                                            .          100.00000      100.00000       3.00000    3220.00000 prodMassima[2,5]
+
+    12 energia[3,5] BS        .            5.00000          -Inf         .            3.00000    3220.00000 prodMinima[3,5]
+                                            .           20.00000         .               +Inf    3220.00000
+
+    13 energia[1,6] NU      90.00000       2.00000          -Inf       60.00000          -Inf    3250.00000 acqua[2,4]
+                                          -1.00000      90.00000       90.00000       3.00000    3220.00000 prodMassima[1,6]
+
+    14 energia[2,6] NU     100.00000       3.00000          -Inf       70.00000          -Inf    3220.00000 acqua[2,4]
+                                            .          100.00000      100.00000       3.00000    3220.00000 prodMassima[2,6]
+
+    15 energia[3,6] BS        .            5.00000          -Inf         .            3.00000    3220.00000 prodMinima[3,6]
+                                            .           20.00000         .               +Inf    3220.00000
+
+    16 energia[1,7] NU      90.00000       2.00000          -Inf       60.00000          -Inf    3250.00000 acqua[2,4]
+                                          -1.00000      90.00000       90.00000       3.00000    3220.00000 prodMassima[1,7]
+
+    17 energia[2,7] BS        .            3.00000          -Inf         .               -Inf    3220.00000
+                                            .          100.00000         .            3.00000    3220.00000 prodMassima[2,7]
+
+    18 energia[3,7] BS        .            5.00000          -Inf         .            3.00000    3220.00000 prodMinima[3,7]
+                                            .           20.00000         .               +Inf    3220.00000
+
+    19 energia[1,4] NU      90.00000       2.00000          -Inf       85.00000          -Inf    3225.00000 acqua[3,4]
+                                          -1.00000      90.00000       90.00000       3.00000    3220.00000 prodMassima[1,4]
+
+    20 energia[2,4] NU     100.00000       3.00000          -Inf       95.00000          -Inf    3220.00000 acqua[3,4]
+                                            .          100.00000      100.00000       3.00000    3220.00000 prodMassima[2,4]
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page  11
+
+Problem:    ucp2
+Objective:  costoTotale = 3220 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    21 energia[3,4] BS        .            5.00000          -Inf         .            3.00000    3220.00000 prodMinima[3,4]
+                                            .           20.00000         .               +Inf    3220.00000
+
+    22 acqua[1,1]   BS     400.00000        .             .           700.00000        .         3220.00000 acquaTrasformata[1,2]
+                                            .          600.00000      200.00000        .         3220.00000 acqua[1,2]
+
+    23 acqua[2,1]   BS    1000.00000        .             .          1600.00000        .         3220.00000 energia[2,5]
+                                            .         2000.00000      800.00000        .         3220.00000 acqua[3,1]
+
+    24 acqua[3,1]   NL        .             .             .          -100.00000        .         3220.00000 acqua[3,2]
+                                            .          300.00000      200.00000          +Inf    3220.00000 acqua[3,2]
+
+    25 acqua[1,2]   NU     600.00000        .             .           400.00000          -Inf    3220.00000 acquaTrasformata[1,3]
+                                            .          600.00000      800.00000        .         3220.00000 acqua[1,1]
+
+    26 acqua[1,3]   NU     600.00000        .             .           500.00000          -Inf    3220.00000 acqua[3,4]
+                                            .          600.00000      600.00000        .         3220.00000 acquaTrasformata[3,4]
+
+    27 acqua[1,4]   NU     600.00000        .             .           600.00000          -Inf    3220.00000 acquaTrasformata[3,4]
+                                            .          600.00000      700.00000        .         3220.00000 acqua[3,4]
+
+    28 acqua[1,5]   NU     600.00000        .             .           400.00000          -Inf    3220.00000 acquaTrasformata[1,6]
+                                            .          600.00000      800.00000        .         3220.00000 acquaTrasformata[1,5]
+
+    29 acqua[1,6]   NU     600.00000        .             .          -200.00000          -Inf    3220.00000 acquaTrasformata[1,7]
+                                            .          600.00000      800.00000        .         3220.00000 acquaTrasformata[1,6]
+
+    30 acqua[1,7]   NL        .             .             .          -400.00000       -.15000    3160.00000 prodMinima[2,1]
+                                            .15000     600.00000      600.00000          +Inf    3310.00000 acqua[2,4]
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page  12
+
+Problem:    ucp2
+Objective:  costoTotale = 3220 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    31 acqua[2,2]   BS    1400.00000        .             .          2000.00000        .         3220.00000 energia[2,5]
+                                            .         2000.00000     1200.00000        .         3220.00000 acqua[3,1]
+
+    32 acqua[2,3]   BS    1000.00000        .             .          1600.00000        .         3220.00000 energia[2,5]
+                                            .         2000.00000      800.00000        .         3220.00000 acqua[3,3]
+
+    33 acqua[2,4]   BS    1400.00000        .             .          2000.00000        .         3220.00000 energia[2,5]
+                                            .         2000.00000     1200.00000        .         3220.00000 acqua[3,3]
+
+    34 acqua[2,5]   BS    1000.00000        .             .          1600.00000        .         3220.00000 energia[2,6]
+                                            .         2000.00000      800.00000        .         3220.00000 acqua[3,5]
+
+    35 acqua[2,6]   BS     500.00000        .             .          1300.00000        .         3220.00000 acqua[1,6]
+                                            .         2000.00000      400.00000        .         3220.00000 acqua[3,6]
+
+    36 acqua[2,7]   NL        .             .             .          -400.00000       -.15000    3160.00000 prodMinima[2,1]
+                                            .15000    2000.00000      600.00000          +Inf    3310.00000 acqua[2,4]
+
+    37 acqua[3,2]   BS     100.00000        .             .           300.00000        .         3220.00000 acqua[3,1]
+                                            .          300.00000     -100.00000        .         3220.00000 acquaTrasformata[3,2]
+
+    38 acqua[3,3]   NL        .             .             .          -100.00000        .         3220.00000 acqua[3,4]
+                                            .          300.00000      200.00000          +Inf    3220.00000 acquaTrasformata[3,3]
+
+    39 acqua[3,4]   BS     100.00000        .             .           100.00000        .         3220.00000 acqua[1,4]
+                                            .          300.00000     -100.00000        .         3220.00000 energia[2,4]
+
+    40 acqua[3,5]   NL        .             .             .          -100.00000        .         3220.00000 acquaTrasformata[3,6]
+                                            .          300.00000      200.00000          +Inf    3220.00000 acquaTrasformata[3,5]
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page  13
+
+Problem:    ucp2
+Objective:  costoTotale = 3220 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    41 acqua[3,6]   NL        .             .             .          -100.00000        .         3220.00000 acquaTrasformata[3,7]
+                                            .          300.00000      100.00000          +Inf    3220.00000 acquaTrasformata[3,6]
+
+    42 acqua[3,7]   NL        .             .             .          -400.00000       -.15000    3160.00000 prodMinima[2,1]
+                                            .15000     300.00000      100.00000          +Inf    3235.00000 acquaTrasformata[3,7]
+
+    43 acquaTrasformata[1,1]
+                    BS     300.00000        .             .           500.00000        .         3220.00000 acqua[1,2]
+                                            .               +Inf      100.00000        .         3220.00000 acquaTrasformata[1,2]
+
+    44 acquaTrasformata[2,1]
+                    BS     900.00000        .             .          1100.00000        .         3220.00000 acqua[3,1]
+                                            .               +Inf      300.00000        .         3220.00000 energia[2,5]
+
+    45 acquaTrasformata[3,1]
+                    BS     200.00000        .             .           200.00000          -Inf          -Inf
+                                            .               +Inf         .             .         3220.00000 acqua[3,1]
+
+    46 acquaTrasformata[1,2]
+                    NL        .             .             .          -200.00000        .         3220.00000 prodMassima[2,2]
+                                            .               +Inf      200.00000          +Inf    3220.00000 acqua[1,1]
+
+    47 acquaTrasformata[2,2]
+                    NL        .             .             .          -200.00000        .         3220.00000 prodMassima[2,2]
+                                            .               +Inf      900.00000          +Inf    3220.00000 acquaTrasformata[2,1]
+
+    48 acquaTrasformata[3,2]
+                    NL        .             .             .          -200.00000        .         3220.00000 acqua[3,2]
+                                            .               +Inf      100.00000          +Inf    3220.00000 acqua[3,2]
+
+    49 acquaTrasformata[1,3]
+                    BS     200.00000        .             .           300.00000        .         3220.00000 acqua[1,3]
+                                            .               +Inf     -200.00000        .         3220.00000 acqua[1,2]
+
+    50 acquaTrasformata[2,3]
+                    BS     800.00000        .             .          1000.00000        .         3220.00000 acqua[1,2]
+                                            .               +Inf      600.00000        .         3220.00000 acqua[3,1]
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page  14
+
+Problem:    ucp2
+Objective:  costoTotale = 3220 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    51 acquaTrasformata[3,3]
+                    BS     200.00000        .             .           400.00000        .         3220.00000 acqua[3,1]
+                                            .               +Inf         .             .         3220.00000 acqua[3,3]
+
+    52 acquaTrasformata[1,5]
+                    BS     200.00000        .             .           400.00000        .         3220.00000 acqua[1,5]
+                                            .               +Inf      200.00000        .         3220.00000 acqua[1,4]
+
+    53 acquaTrasformata[2,5]
+                    BS     800.00000        .             .          1400.00000        .         3220.00000 energia[2,5]
+                                            .               +Inf      600.00000        .         3220.00000 acqua[3,3]
+
+    54 acquaTrasformata[3,5]
+                    BS     200.00000        .             .           200.00000        .         3220.00000 acqua[1,4]
+                                            .               +Inf      100.00000        .         3220.00000 energia[2,4]
+
+    55 acquaTrasformata[1,6]
+                    BS     200.00000        .             .          1000.00000        .         3220.00000 acqua[1,6]
+                                            .               +Inf     -600.00000        .         3220.00000 acqua[1,5]
+
+    56 acquaTrasformata[2,6]
+                    BS     900.00000        .             .          1500.00000        .         3220.00000 energia[2,6]
+                                            .               +Inf      100.00000        .         3220.00000 acqua[1,6]
+
+    57 acquaTrasformata[3,6]
+                    BS     100.00000        .             .           300.00000        .         3220.00000 acqua[3,5]
+                                            .               +Inf     -400.00000        .         3220.00000 acqua[3,6]
+
+    58 acquaTrasformata[1,7]
+                    BS     800.00000        .             .           800.00000          -Inf          -Inf
+                                            .               +Inf     -100.00000        .         3220.00000 acqua[1,6]
+
+    59 acquaTrasformata[2,7]
+                    BS     900.00000        .             .          1700.00000        .         3220.00000 acqua[1,6]
+                                            .               +Inf      800.00000        .         3220.00000 acqua[3,6]
+
+    60 acquaTrasformata[3,7]
+                    BS     100.00000        .             .           200.00000        .         3220.00000 acqua[3,6]
+                                            .               +Inf     -500.00000        .15000    3235.00000 acqua[3,7]
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page  15
+
+Problem:    ucp2
+Objective:  costoTotale = 3220 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    61 acquaTrasformata[1,4]
+                    BS     200.00000        .             .           200.00000        .         3220.00000 acqua[1,4]
+                                            .               +Inf      100.00000        .         3220.00000 acqua[1,3]
+
+    62 acquaTrasformata[2,4]
+                    NL        .             .             .          -100.00000        .         3220.00000 acqua[3,4]
+                                            .               +Inf         .               +Inf    3220.00000 acquaTrasformata[3,4]
+
+    63 acquaTrasformata[3,4]
+                    BS        .             .             .           100.00000        .         3220.00000 energia[2,4]
+                                            .               +Inf     -200.00000        .         3220.00000 acqua[1,4]
+
+End of report

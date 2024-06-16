@@ -1,0 +1,247 @@
+Problem:    ucp2
+Rows:       71
+Columns:    63
+Non-zeros:  165
+Status:     OPTIMAL
+Objective:  costoTotale = 3220 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 Domanda[1]   NS           200           200             =             3 
+     2 Domanda[2]   NS           180           180             =             3 
+     3 Domanda[3]   NS           150           150             =             3 
+     4 Domanda[5]   NS           250           250             =             3 
+     5 Domanda[6]   NS           250           250             =             3 
+     6 Domanda[7]   NS           180           180             =             3 
+     7 Domanda4     NS           200           200             =             3 
+     8 giorno1[1]   NS           700           700             =         -0.15 
+     9 giorno1[2]   NS          1900          1900             =         -0.15 
+    10 giorno1[3]   NS           200           200             =         -0.15 
+    11 vincoloAcqua[1,2]
+                    NS           200           200             =         -0.15 
+    12 vincoloAcqua[1,3]
+                    NS           200           200             =         -0.15 
+    13 vincoloAcqua[1,4]
+                    NS           200           200             =         -0.15 
+    14 vincoloAcqua[1,5]
+                    NS           200           200             =         -0.15 
+    15 vincoloAcqua[1,6]
+                    NS           200           200             =         -0.15 
+    16 vincoloAcqua[1,7]
+                    NS           200           200             =         -0.15 
+    17 vincoloAcqua[2,2]
+                    NS           400           400             =         -0.15 
+    18 vincoloAcqua[2,3]
+                    NS           400           400             =         -0.15 
+    19 vincoloAcqua[2,4]
+                    NS           400           400             =         -0.15 
+    20 vincoloAcqua[2,5]
+                    NS           400           400             =         -0.15 
+    21 vincoloAcqua[2,6]
+                    NS           400           400             =         -0.15 
+    22 vincoloAcqua[2,7]
+                    NS           400           400             =         -0.15 
+    23 vincoloAcqua[3,2]
+                    NS           100           100             =         -0.15 
+    24 vincoloAcqua[3,3]
+                    NS           100           100             =         -0.15 
+    25 vincoloAcqua[3,4]
+                    NS           100           100             =         -0.15 
+    26 vincoloAcqua[3,5]
+                    NS           100           100             =         -0.15 
+    27 vincoloAcqua[3,6]
+                    NS           100           100             =         -0.15 
+    28 vincoloAcqua[3,7]
+                    NS           100           100             =         -0.15 
+    29 prodMinima[1,1]
+                    B             90            10               
+    30 prodMinima[1,2]
+                    B             90            10               
+    31 prodMinima[1,3]
+                    B             90            10               
+    32 prodMinima[1,4]
+                    B             90            10               
+    33 prodMinima[1,5]
+                    B             90            10               
+    34 prodMinima[1,6]
+                    B             90            10               
+    35 prodMinima[1,7]
+                    B             90            10               
+    36 prodMinima[2,1]
+                    B             40            20               
+    37 prodMinima[2,2]
+                    B             90            20               
+    38 prodMinima[2,3]
+                    B              0            -0               
+    39 prodMinima[2,4]
+                    B            100            20               
+    40 prodMinima[2,5]
+                    B            100            20               
+    41 prodMinima[2,6]
+                    B            100            20               
+    42 prodMinima[2,7]
+                    B              0            -0               
+    43 prodMinima[3,1]
+                    NL             0            -0                           2 
+    44 prodMinima[3,2]
+                    NL             0            -0                           2 
+    45 prodMinima[3,3]
+                    NL             0            -0                           2 
+    46 prodMinima[3,4]
+                    NL             0            -0                           2 
+    47 prodMinima[3,5]
+                    NL             0            -0                           2 
+    48 prodMinima[3,6]
+                    NL             0            -0                           2 
+    49 prodMinima[3,7]
+                    NL             0            -0                           2 
+    50 prodMassima[1,1]
+                    B             90                          90 
+    51 prodMassima[1,2]
+                    B             90                          90 
+    52 prodMassima[1,3]
+                    B             90                          90 
+    53 prodMassima[1,4]
+                    B             90                          90 
+    54 prodMassima[1,5]
+                    B             90                          90 
+    55 prodMassima[1,6]
+                    B             90                          90 
+    56 prodMassima[1,7]
+                    B             90                          90 
+    57 prodMassima[2,1]
+                    B             40                         100 
+    58 prodMassima[2,2]
+                    B             90                         100 
+    59 prodMassima[2,3]
+                    NU             0                          -0         < eps
+    60 prodMassima[2,4]
+                    B            100                         100 
+    61 prodMassima[2,5]
+                    B            100                         100 
+    62 prodMassima[2,6]
+                    B            100                         100 
+    63 prodMassima[2,7]
+                    NU             0                          -0         < eps
+    64 prodMassima[3,1]
+                    B              0                          -0 
+    65 prodMassima[3,2]
+                    B              0                          -0 
+    66 prodMassima[3,3]
+                    B              0                          -0 
+    67 prodMassima[3,4]
+                    B              0                          -0 
+    68 prodMassima[3,5]
+                    B              0                          -0 
+    69 prodMassima[3,6]
+                    B              0                          -0 
+    70 prodMassima[3,7]
+                    B              0                          -0 
+    71 costoTotale  B           2550                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 energia[1,1] NU            90                          90            -1 
+     2 energia[2,1] B             40                         100 
+     3 energia[3,1] B              0                          20 
+     4 energia[1,2] NU            90                          90            -1 
+     5 energia[2,2] B             90                         100 
+     6 energia[3,2] B              0                          20 
+     7 energia[1,3] NU            90                          90            -1 
+     8 energia[2,3] B              0                         100 
+     9 energia[3,3] B              0                          20 
+    10 energia[1,5] NU            90                          90            -1 
+    11 energia[2,5] NU           100                         100         < eps
+    12 energia[3,5] B              0                          20 
+    13 energia[1,6] NU            90                          90            -1 
+    14 energia[2,6] NU           100                         100         < eps
+    15 energia[3,6] B              0                          20 
+    16 energia[1,7] NU            90                          90            -1 
+    17 energia[2,7] B              0                         100 
+    18 energia[3,7] B              0                          20 
+    19 energia[1,4] NU            90                          90            -1 
+    20 energia[2,4] NU           100                         100         < eps
+    21 energia[3,4] B              0                          20 
+    22 acqua[1,1]   B            400             0           600 
+    23 acqua[2,1]   B           1000             0          2000 
+    24 acqua[3,1]   NL             0             0           300         < eps
+    25 acqua[1,2]   NU           600             0           600         < eps
+    26 acqua[1,3]   NU           600             0           600         < eps
+    27 acqua[1,4]   NU           600             0           600         < eps
+    28 acqua[1,5]   NU           600             0           600         < eps
+    29 acqua[1,6]   NU           600             0           600         < eps
+    30 acqua[1,7]   NL             0             0           600          0.15 
+    31 acqua[2,2]   B           1400             0          2000 
+    32 acqua[2,3]   B           1000             0          2000 
+    33 acqua[2,4]   B           1400             0          2000 
+    34 acqua[2,5]   B           1000             0          2000 
+    35 acqua[2,6]   B            500             0          2000 
+    36 acqua[2,7]   NL             0             0          2000          0.15 
+    37 acqua[3,2]   B            100             0           300 
+    38 acqua[3,3]   NL             0             0           300         < eps
+    39 acqua[3,4]   B            100             0           300 
+    40 acqua[3,5]   NL             0             0           300         < eps
+    41 acqua[3,6]   NL             0             0           300         < eps
+    42 acqua[3,7]   NL             0             0           300          0.15 
+    43 acquaTrasformata[1,1]
+                    B            300             0               
+    44 acquaTrasformata[2,1]
+                    B            900             0               
+    45 acquaTrasformata[3,1]
+                    B            200             0               
+    46 acquaTrasformata[1,2]
+                    NL             0             0                       < eps
+    47 acquaTrasformata[2,2]
+                    NL             0             0                       < eps
+    48 acquaTrasformata[3,2]
+                    NL             0             0                       < eps
+    49 acquaTrasformata[1,3]
+                    B            200             0               
+    50 acquaTrasformata[2,3]
+                    B            800             0               
+    51 acquaTrasformata[3,3]
+                    B            200             0               
+    52 acquaTrasformata[1,5]
+                    B            200             0               
+    53 acquaTrasformata[2,5]
+                    B            800             0               
+    54 acquaTrasformata[3,5]
+                    B            200             0               
+    55 acquaTrasformata[1,6]
+                    B            200             0               
+    56 acquaTrasformata[2,6]
+                    B            900             0               
+    57 acquaTrasformata[3,6]
+                    B            100             0               
+    58 acquaTrasformata[1,7]
+                    B            800             0               
+    59 acquaTrasformata[2,7]
+                    B            900             0               
+    60 acquaTrasformata[3,7]
+                    B            100             0               
+    61 acquaTrasformata[1,4]
+                    B            200             0               
+    62 acquaTrasformata[2,4]
+                    NL             0             0                       < eps
+    63 acquaTrasformata[3,4]
+                    B              0             0               
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 2.27e-13 on row 11
+        max.rel.err = 1.89e-16 on row 11
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 5.55e-17 on column 22
+        max.rel.err = 4.27e-17 on column 22
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

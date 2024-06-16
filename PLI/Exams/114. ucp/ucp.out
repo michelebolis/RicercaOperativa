@@ -1,0 +1,291 @@
+Problem:    ucp
+Rows:       113
+Columns:    84 (21 integer, 21 binary)
+Non-zeros:  288
+Status:     INTEGER OPTIMAL
+Objective:  z = 3325 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 DomandaSoddisfatta[1]
+                                 200           200               
+     2 DomandaSoddisfatta[2]
+                                 180           180               
+     3 DomandaSoddisfatta[3]
+                                 150           150               
+     4 DomandaSoddisfatta[4]
+                                 200           200               
+     5 DomandaSoddisfatta[5]
+                                 250           250               
+     6 DomandaSoddisfatta[6]
+                                 250           250               
+     7 DomandaSoddisfatta[7]
+                                 180           180               
+     8 AcquaBacino[1,2]
+                                 200           200             = 
+     9 AcquaBacino[1,3]
+                                 200           200             = 
+    10 AcquaBacino[1,4]
+                                 200           200             = 
+    11 AcquaBacino[1,5]
+                                 200           200             = 
+    12 AcquaBacino[1,6]
+                                 200           200             = 
+    13 AcquaBacino[1,7]
+                                 200           200             = 
+    14 AcquaBacino[2,2]
+                                 400           400             = 
+    15 AcquaBacino[2,3]
+                                 400           400             = 
+    16 AcquaBacino[2,4]
+                                 400           400             = 
+    17 AcquaBacino[2,5]
+                                 400           400             = 
+    18 AcquaBacino[2,6]
+                                 400           400             = 
+    19 AcquaBacino[2,7]
+                                 400           400             = 
+    20 AcquaBacino[3,2]
+                                 100           100             = 
+    21 AcquaBacino[3,3]
+                                 100           100             = 
+    22 AcquaBacino[3,4]
+                                 100           100             = 
+    23 AcquaBacino[3,5]
+                                 100           100             = 
+    24 AcquaBacino[3,6]
+                                 100           100             = 
+    25 AcquaBacino[3,7]
+                                 100           100             = 
+    26 MaxCapacitaBacino[1,1]
+                                 500                         600 
+    27 MaxCapacitaBacino[1,2]
+                                 400                         600 
+    28 MaxCapacitaBacino[1,3]
+                                 600                         600 
+    29 MaxCapacitaBacino[1,4]
+                                 300                         600 
+    30 MaxCapacitaBacino[1,5]
+                                 500                         600 
+    31 MaxCapacitaBacino[1,6]
+                                 600                         600 
+    32 MaxCapacitaBacino[1,7]
+                                 200                         600 
+    33 MaxCapacitaBacino[2,1]
+                                1500                        2000 
+    34 MaxCapacitaBacino[2,2]
+                                1900                        2000 
+    35 MaxCapacitaBacino[2,3]
+                                1900                        2000 
+    36 MaxCapacitaBacino[2,4]
+                                1700                        2000 
+    37 MaxCapacitaBacino[2,5]
+                                2000                        2000 
+    38 MaxCapacitaBacino[2,6]
+                                1600                        2000 
+    39 MaxCapacitaBacino[2,7]
+                                1500                        2000 
+    40 MaxCapacitaBacino[3,1]
+                                 100                         300 
+    41 MaxCapacitaBacino[3,2]
+                                 200                         300 
+    42 MaxCapacitaBacino[3,3]
+                                 300                         300 
+    43 MaxCapacitaBacino[3,4]
+                                 300                         300 
+    44 MaxCapacitaBacino[3,5]
+                                 300                         300 
+    45 MaxCapacitaBacino[3,6]
+                                 100                         300 
+    46 MaxCapacitaBacino[3,7]
+                                 100                         300 
+    47 AcquaBacino0[1]
+                                 500           500             = 
+    48 AcquaBacino0[2]
+                                1500          1500             = 
+    49 AcquaBacino0[3]
+                                 100           100             = 
+    50 ProdMaxIdro[1,1]
+                                -200                          -0 
+    51 ProdMaxIdro[1,2]
+                                -400                          -0 
+    52 ProdMaxIdro[1,3]
+                                -100                          -0 
+    53 ProdMaxIdro[1,4]
+                                -300                          -0 
+    54 ProdMaxIdro[1,5]
+                                -400                          -0 
+    55 ProdMaxIdro[1,6]
+                                   0                          -0 
+    56 ProdMaxIdro[1,7]
+                                   0                          -0 
+    57 ProdMaxIdro[2,1]
+                               -1500                          -0 
+    58 ProdMaxIdro[2,2]
+                               -1500                          -0 
+    59 ProdMaxIdro[2,3]
+                               -1300                          -0 
+    60 ProdMaxIdro[2,4]
+                               -1600                          -0 
+    61 ProdMaxIdro[2,5]
+                               -1200                          -0 
+    62 ProdMaxIdro[2,6]
+                               -1100                          -0 
+    63 ProdMaxIdro[2,7]
+                                   0                          -0 
+    64 ProdMaxIdro[3,1]
+                                -100                          -0 
+    65 ProdMaxIdro[3,2]
+                                -200                          -0 
+    66 ProdMaxIdro[3,3]
+                                -200                          -0 
+    67 ProdMaxIdro[3,4]
+                                -200                          -0 
+    68 ProdMaxIdro[3,5]
+                                   0                          -0 
+    69 ProdMaxIdro[3,6]
+                                   0                          -0 
+    70 ProdMaxIdro[3,7]
+                                   0                          -0 
+    71 ProdMin[1,1]               80            -0               
+    72 ProdMin[1,2]               80            -0               
+    73 ProdMin[1,3]               80            -0               
+    74 ProdMin[1,4]               80            -0               
+    75 ProdMin[1,5]               80            -0               
+    76 ProdMin[1,6]               80            -0               
+    77 ProdMin[1,7]               80            -0               
+    78 ProdMin[2,1]               75            -0               
+    79 ProdMin[2,2]               50            -0               
+    80 ProdMin[2,3]                0            -0               
+    81 ProdMin[2,4]               80            -0               
+    82 ProdMin[2,5]               80            -0               
+    83 ProdMin[2,6]               80            -0               
+    84 ProdMin[2,7]                0            -0               
+    85 ProdMin[3,1]                0            -0               
+    86 ProdMin[3,2]                0            -0               
+    87 ProdMin[3,3]                0            -0               
+    88 ProdMin[3,4]                0            -0               
+    89 ProdMin[3,5]                0            -0               
+    90 ProdMin[3,6]                0            -0               
+    91 ProdMin[3,7]                0            -0               
+    92 ProdMax[1,1]                0                          -0 
+    93 ProdMax[1,2]                0                          -0 
+    94 ProdMax[1,3]                0                          -0 
+    95 ProdMax[1,4]                0                          -0 
+    96 ProdMax[1,5]                0                          -0 
+    97 ProdMax[1,6]                0                          -0 
+    98 ProdMax[1,7]                0                          -0 
+    99 ProdMax[2,1]               -5                          -0 
+   100 ProdMax[2,2]              -30                          -0 
+   101 ProdMax[2,3]                0                          -0 
+   102 ProdMax[2,4]                0                          -0 
+   103 ProdMax[2,5]                0                          -0 
+   104 ProdMax[2,6]                0                          -0 
+   105 ProdMax[2,7]                0                          -0 
+   106 ProdMax[3,1]                0                          -0 
+   107 ProdMax[3,2]                0                          -0 
+   108 ProdMax[3,3]                0                          -0 
+   109 ProdMax[3,4]                0                          -0 
+   110 ProdMax[3,5]                0                          -0 
+   111 ProdMax[3,6]                0                          -0 
+   112 ProdMax[3,7]                0                          -0 
+   113 z                        3325                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 x[1,1]       *              1             0             1 
+     2 x[1,2]       *              1             0             1 
+     3 x[1,3]       *              1             0             1 
+     4 x[1,4]       *              1             0             1 
+     5 x[1,5]       *              1             0             1 
+     6 x[1,6]       *              1             0             1 
+     7 x[1,7]       *              1             0             1 
+     8 x[2,1]       *              1             0             1 
+     9 x[2,2]       *              1             0             1 
+    10 x[2,3]       *              0             0             1 
+    11 x[2,4]       *              1             0             1 
+    12 x[2,5]       *              1             0             1 
+    13 x[2,6]       *              1             0             1 
+    14 x[2,7]       *              0             0             1 
+    15 x[3,1]       *              0             0             1 
+    16 x[3,2]       *              0             0             1 
+    17 x[3,3]       *              0             0             1 
+    18 x[3,4]       *              0             0             1 
+    19 x[3,5]       *              0             0             1 
+    20 x[3,6]       *              0             0             1 
+    21 x[3,7]       *              0             0             1 
+    22 px[1,1]                    90                             
+    23 px[2,1]                    95                             
+    24 px[3,1]                     0                             
+    25 px[1,2]                    90                             
+    26 px[2,2]                    70                             
+    27 px[3,2]                     0                             
+    28 px[1,3]                    90                             
+    29 px[2,3]                     0                             
+    30 px[3,3]                     0                             
+    31 px[1,4]                    90                             
+    32 px[2,4]                   100                             
+    33 px[3,4]                     0                             
+    34 px[1,5]                    90                             
+    35 px[2,5]                   100                             
+    36 px[3,5]                     0                             
+    37 px[1,6]                    90                             
+    38 px[2,6]                   100                             
+    39 px[3,6]                     0                             
+    40 px[1,7]                    90                             
+    41 px[2,7]                     0                             
+    42 px[3,7]                     0                             
+    43 y[1,2]                    400             0               
+    44 y[1,1]                    500             0               
+    45 y[1,3]                    600             0               
+    46 y[1,4]                    300             0               
+    47 y[1,5]                    500             0               
+    48 y[1,6]                    600             0               
+    49 y[1,7]                    200             0               
+    50 y[2,2]                   1900             0               
+    51 y[2,1]                   1500             0               
+    52 y[2,3]                   1900             0               
+    53 y[2,4]                   1700             0               
+    54 y[2,5]                   2000             0               
+    55 y[2,6]                   1600             0               
+    56 y[2,7]                   1500             0               
+    57 y[3,2]                    200             0               
+    58 y[3,1]                    100             0               
+    59 y[3,3]                    300             0               
+    60 y[3,4]                    300             0               
+    61 y[3,5]                    300             0               
+    62 y[3,6]                    100             0               
+    63 y[3,7]                    100             0               
+    64 py[1,1]                   300             0               
+    65 py[2,1]                     0             0               
+    66 py[3,1]                     0             0               
+    67 py[1,2]                     0             0               
+    68 py[2,2]                   400             0               
+    69 py[3,2]                     0             0               
+    70 py[1,3]                   500             0               
+    71 py[2,3]                   600             0               
+    72 py[3,3]                   100             0               
+    73 py[1,4]                     0             0               
+    74 py[2,4]                   100             0               
+    75 py[3,4]                   100             0               
+    76 py[1,5]                   100             0               
+    77 py[2,5]                   800             0               
+    78 py[3,5]                   300             0               
+    79 py[1,6]                   600             0               
+    80 py[2,6]                   500             0               
+    81 py[3,6]                   100             0               
+    82 py[1,7]                   200             0               
+    83 py[2,7]                  1500             0               
+    84 py[3,7]                   100             0               
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 2.27e-13 on row 18
+        max.rel.err = 5.67e-16 on row 18
+        High quality
+
+End of output
