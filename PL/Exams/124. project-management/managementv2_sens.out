@@ -1,0 +1,254 @@
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
+
+Problem:    managementv2
+Objective:  tot = 62.8 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 durata[A]    NS      20.00000        .           20.00000        7.71429          -Inf      55.42857 vincoloTemporale[E]
+                                            .60000      20.00000       27.00000          +Inf      67.00000 vincoloPrecedenze[E,A]
+
+     2 durata[B]    NS      45.00000        .           45.00000       38.00000          -Inf      60.00000 vincoloPrecedenze[E,A]
+                                            .40000      45.00000       57.28571          +Inf      67.71429 vincoloTemporale[E]
+
+     3 durata[C]    NS       5.00000        .            5.00000      -43.80000          -Inf      62.80000 fine[C]
+                                            .            5.00000       19.00000          +Inf      62.80000 minimo[C]
+
+     4 durata[D]    NS      12.00000        .           12.00000        1.50000          -Inf      56.50000 vincoloPrecedenze[E,A]
+                                            .60000      12.00000       19.55556          +Inf      67.33333 vincoloPrecedenze[H,D]
+
+     5 durata[E]    NS      12.00000        .           12.00000           -Inf          -Inf      62.80000
+                                            .           12.00000       17.16000          +Inf      62.80000 vincoloTemporale[E]
+
+     6 durata[F]    NS      49.00000        .           49.00000       41.44444          -Inf      59.77778 vincoloPrecedenze[H,D]
+                                            .40000      49.00000       59.50000          +Inf      67.00000 vincoloPrecedenze[E,A]
+
+     7 durata[G]    NS      10.00000        .           10.00000        8.34146          -Inf      61.80488 vincoloPrecedenze[H,D]
+                                            .60000      10.00000       18.89655          +Inf      68.13793 vincoloTemporale[E]
+
+     8 durata[H]    NS      18.00000        .           18.00000        4.16000          -Inf      62.80000 fine[H]
+                                            .           18.00000       19.36000          +Inf      62.80000 vincoloPrecedenze[H,D]
+
+     9 vincoloTemporale[A]
+                    NL        .             .             .           -12.28571       -.60000      55.42857 vincoloTemporale[E]
+                                            .60000          +Inf        7.00000          +Inf      67.00000 vincoloPrecedenze[E,A]
+
+    10 vincoloTemporale[B]
+                    NL        .             .             .            -7.00000       -.40000      60.00000 vincoloPrecedenze[E,A]
+                                            .40000          +Inf       12.28571          +Inf      67.71429 vincoloTemporale[E]
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
+
+Problem:    managementv2
+Objective:  tot = 62.8 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    11 vincoloTemporale[C]
+                    NL        .             .             .           -48.80000        .           62.80000 fine[C]
+                                            .               +Inf       14.00000          +Inf      62.80000 minimo[C]
+
+    12 vincoloTemporale[D]
+                    NL        .             .             .           -10.50000       -.60000      56.50000 vincoloPrecedenze[E,A]
+                                            .60000          +Inf        7.55556          +Inf      67.33333 vincoloPrecedenze[H,D]
+
+    13 vincoloTemporale[E]
+                    BS       5.16000      -5.16000        .            11.25000       -.68966      59.24138 vincoloTemporale[F]
+                                            .               +Inf           -Inf        .           62.80000 vincoloPrecedenze[G,E]
+
+    14 vincoloTemporale[F]
+                    NL        .             .             .            -7.55556       -.40000      59.77778 vincoloPrecedenze[H,D]
+                                            .40000          +Inf       10.50000          +Inf      67.00000 vincoloPrecedenze[E,A]
+
+    15 vincoloTemporale[G]
+                    NL        .             .             .            -1.65854       -.60000      61.80488 vincoloPrecedenze[H,D]
+                                            .60000          +Inf        8.89655          +Inf      68.13793 vincoloTemporale[E]
+
+    16 vincoloTemporale[H]
+                    NL        .             .             .           -13.84000        .           62.80000 fine[H]
+                                            .               +Inf        1.36000          +Inf      62.80000 vincoloPrecedenze[H,D]
+
+    17 minimo[A]    NL        .             .             .           -12.28571       -.60000      55.42857 vincoloTemporale[E]
+                                            .60000          +Inf        7.00000          +Inf      67.00000 vincoloPrecedenze[E,A]
+
+    18 minimo[B]    NL        .             .             .            -7.00000       -.40000      60.00000 vincoloPrecedenze[E,A]
+                                            .40000          +Inf       12.28571          +Inf      67.71429 vincoloTemporale[E]
+
+    19 minimo[C]    BS      14.00000     -14.00000        .            19.25000       -.80000      51.60000 vincoloPrecedenze[F,B]
+                                            .               +Inf           -Inf        .           62.80000 vincoloTemporale[C]
+
+    20 minimo[D]    BS      25.20000     -25.20000        .            31.50000       -.66667      46.00000 vincoloTemporale[A]
+                                            .               +Inf       24.44444       6.00000     214.00000 vincoloTemporale[D]
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page   3
+
+Problem:    managementv2
+Objective:  tot = 62.8 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    21 minimo[E]    BS      29.40000     -29.40000        .            34.56000        .           62.80000 vincoloPrecedenze[E,B]
+                                            .               +Inf       26.25000       1.33333     102.00000 vincoloTemporale[F]
+
+    22 minimo[F]    BS      29.40000     -29.40000        .            36.75000       -.57143      46.00000 vincoloPrecedenze[F,B]
+                                            .               +Inf       26.25000       1.33333     102.00000 vincoloTemporale[F]
+
+    23 minimo[G]    BS      47.60000     -47.60000        .            52.50000       -.85714      22.00000 vincoloTemporale[A]
+                                            .               +Inf       44.93103       2.00000     158.00000 vincoloTemporale[G]
+
+    24 minimo[H]    BS      48.96000     -48.96000        .            54.00000       -.83333      22.00000 vincoloTemporale[F]
+                                            .               +Inf       47.60000        .           62.80000 vincoloTemporale[H]
+
+    25 vincoloPrecedenze[D,A]
+                    NL        .             .             .           -10.50000       -.60000      56.50000 vincoloPrecedenze[E,A]
+                                            .60000          +Inf        7.55556          +Inf      67.33333 vincoloPrecedenze[H,D]
+
+    26 vincoloPrecedenze[E,A]
+                    BS       4.20000      -4.20000        .             9.36000        .           62.80000 vincoloPrecedenze[E,B]
+                                            .               +Inf       -7.00000       1.00000      67.00000 vincoloTemporale[F]
+
+    27 vincoloPrecedenze[E,B]
+                    NL        .             .             .            -4.20000        .           62.80000 vincoloPrecedenze[E,A]
+                                            .               +Inf        5.16000          +Inf      62.80000 vincoloTemporale[E]
+
+    28 vincoloPrecedenze[F,B]
+                    NL        .             .             .            -7.55556       -.40000      59.77778 vincoloPrecedenze[H,D]
+                                            .40000          +Inf       10.50000          +Inf      67.00000 vincoloPrecedenze[E,A]
+
+    29 vincoloPrecedenze[F,C]
+                    NL        .             .             .           -33.40000        .           62.80000 inizio[C]
+                                            .               +Inf       14.00000          +Inf      62.80000 minimo[C]
+
+    30 vincoloPrecedenze[G,D]
+                    NL        .             .             .            -1.65854       -.60000      61.80488 vincoloPrecedenze[H,D]
+                                            .60000          +Inf        7.55556          +Inf      67.33333 vincoloPrecedenze[H,E]
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page   4
+
+Problem:    managementv2
+Objective:  tot = 62.8 (MINimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    31 vincoloPrecedenze[G,E]
+                    NL        .             .             .            -1.36000        .           62.80000 vincoloPrecedenze[H,E]
+                                            .               +Inf        5.16000          +Inf      62.80000 vincoloTemporale[E]
+
+    32 vincoloPrecedenze[H,D]
+                    BS       1.36000      -1.36000        .             8.65517       -.73171      61.80488 vincoloTemporale[G]
+                                            .               +Inf         .             .           62.80000 vincoloTemporale[H]
+
+    33 vincoloPrecedenze[H,E]
+                    BS       1.36000      -1.36000        .             6.52000        .           62.80000 vincoloPrecedenze[G,E]
+                                            .               +Inf         .             .           62.80000 vincoloTemporale[H]
+
+    34 tot          BS      62.80000     -62.80000          -Inf       67.00000      -1.00000        .      vincoloTemporale[F]
+                                            .               +Inf       62.80000          +Inf          +Inf
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page   5
+
+Problem:    managementv2
+Objective:  tot = 62.8 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 inizio[A]    BS      37.60000        .             .            42.88889       -.85714      30.57143 vincoloPrecedenze[D,A]
+                                            .               +Inf       35.50000       2.00000     138.00000 vincoloTemporale[A]
+
+     2 inizio[B]    BS      33.40000        .             .            40.75000       -.57143      43.71429 vincoloTemporale[F]
+                                            .               +Inf       29.71429       1.33333     107.33333 vincoloTemporale[B]
+
+     3 inizio[C]    BS      33.40000        .             .            47.40000        .           62.80000 vincoloPrecedenze[F,C]
+                                            .               +Inf       30.25000       1.33333     107.33333 vincoloPrecedenze[F,B]
+
+     4 inizio[D]    BS      15.20000        .             .            23.20690       -.66667      52.66667 vincoloTemporale[G]
+                                            .               +Inf       14.50000       6.00000     154.00000 vincoloTemporale[A]
+
+     5 inizio[E]    BS      15.20000        .             .            20.36000        .           62.80000 vincoloPrecedenze[G,E]
+                                            .               +Inf       14.50000       6.00000     154.00000 vincoloTemporale[A]
+
+     6 inizio[F]    NL        .             .             .            -7.55556       -.40000      59.77778 vincoloPrecedenze[H,D]
+                                            .40000          +Inf       10.50000          +Inf      67.00000 vincoloPrecedenze[E,A]
+
+     7 inizio[G]    NL        .             .             .            -1.65854       -.60000      61.80488 vincoloPrecedenze[H,D]
+                                            .60000          +Inf        8.89655          +Inf      68.13793 vincoloTemporale[E]
+
+     8 inizio[H]    NL        .             .             .           -13.84000        .           62.80000 fine[H]
+                                            .               +Inf        1.36000          +Inf      62.80000 vincoloPrecedenze[H,D]
+
+     9 fine[A]      BS      62.80000        .             .            67.00000      -1.00000        .      vincoloTemporale[F]
+                                            .               +Inf       60.00000       1.50000     157.00000 minimo[A]
+
+    10 fine[B]      BS      62.80000        .             .            67.00000      -1.00000        .      vincoloTemporale[F]
+                                            .               +Inf       55.42857        .66667     104.66667 minimo[B]
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page   6
+
+Problem:    managementv2
+Objective:  tot = 62.8 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    11 fine[C]      BS      48.80000        .             .            62.80000        .           62.80000 vincoloTemporale[C]
+                                            .               +Inf       47.75000       4.00000     258.00000 vincoloPrecedenze[F,B]
+
+    12 fine[D]      BS      37.60000        .             .            42.88889       -.85714      30.57143 vincoloTemporale[D]
+                                            .               +Inf       35.50000       2.00000     138.00000 vincoloTemporale[A]
+
+    13 fine[E]      BS      33.40000        .             .            40.75000       -.57143      43.71429 vincoloTemporale[F]
+                                            .               +Inf       28.24000        .           62.80000 vincoloPrecedenze[E,B]
+
+    14 fine[F]      BS      33.40000        .             .            40.75000       -.57143      43.71429 vincoloTemporale[F]
+                                            .               +Inf       30.25000       1.33333     107.33333 vincoloPrecedenze[F,B]
+
+    15 fine[G]      BS      15.20000        .             .            23.20690       -.66667      52.66667 vincoloTemporale[G]
+                                            .               +Inf       14.50000       6.00000     154.00000 vincoloTemporale[A]
+
+    16 fine[H]      BS      13.84000        .             .            15.20000        .           62.80000 vincoloTemporale[H]
+                                            .               +Inf       13.00000       5.00000     132.00000 vincoloTemporale[F]
+
+    17 makespan     BS      62.80000       1.00000          -Inf       67.00000        .             .      vincoloTemporale[F]
+                                            .               +Inf       62.80000          +Inf          +Inf
+
+    18 d[A]         BS      25.20000        .               -Inf       26.25000      -4.00000     -38.00000 vincoloTemporale[F]
+                                            .               +Inf       24.50000       6.00000     214.00000 vincoloTemporale[A]
+
+    19 d[B]         BS      29.40000        .               -Inf       31.50000      -2.00000       4.00000 vincoloTemporale[A]
+                                            .               +Inf       26.25000       1.33333     102.00000 vincoloTemporale[F]
+
+    20 d[C]         BS      15.40000        .               -Inf       17.50000      -2.00000      32.00000 vincoloTemporale[F]
+                                            .               +Inf       14.00000       3.00000     109.00000 vincoloTemporale[A]
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page   7
+
+Problem:    managementv2
+Objective:  tot = 62.8 (MINimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    21 d[D]         BS      22.40000        .               -Inf       24.50000      -2.00000      18.00000 vincoloTemporale[F]
+                                            .               +Inf       21.00000       3.00000     130.00000 vincoloTemporale[A]
+
+    22 d[E]         BS      13.04000        .               -Inf       13.25000     -20.00000    -198.00000 vincoloTemporale[F]
+                                            .               +Inf       12.90000      30.00000     454.00000 vincoloTemporale[A]
+
+    23 d[F]         BS      33.40000        .               -Inf       35.50000      -2.00000      -4.00000 vincoloTemporale[A]
+                                            .               +Inf       30.25000       1.33333     107.33333 vincoloTemporale[F]
+
+    24 d[G]         BS      15.20000        .               -Inf       16.25000      -4.00000       2.00000 vincoloTemporale[F]
+                                            .               +Inf       14.50000       6.00000     154.00000 vincoloTemporale[A]
+
+    25 d[H]         BS      13.84000        .               -Inf       14.40000      -7.50000     -41.00000 vincoloTemporale[A]
+                                            .               +Inf       13.00000       5.00000     132.00000 vincoloTemporale[F]
+
+    26 mu           BS        .52000        .             .              .62500     -40.00000      42.00000 vincoloTemporale[F]
+                                            .            1.00000         .45000      60.00000      94.00000 vincoloTemporale[A]
+
+End of report

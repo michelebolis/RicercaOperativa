@@ -1,0 +1,109 @@
+Problem:    managementv2
+Rows:       34
+Columns:    26
+Non-zeros:  75
+Status:     OPTIMAL
+Objective:  tot = 62.8 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 durata[A]    NS            20            20             =           0.6 
+     2 durata[B]    NS            45            45             =           0.4 
+     3 durata[C]    NS             5             5             =         < eps
+     4 durata[D]    NS            12            12             =           0.6 
+     5 durata[E]    NS            12            12             =         < eps
+     6 durata[F]    NS            49            49             =           0.4 
+     7 durata[G]    NS            10            10             =           0.6 
+     8 durata[H]    NS            18            18             =         < eps
+     9 vincoloTemporale[A]
+                    NL             0            -0                         0.6 
+    10 vincoloTemporale[B]
+                    NL             0            -0                         0.4 
+    11 vincoloTemporale[C]
+                    NL             0            -0                       < eps
+    12 vincoloTemporale[D]
+                    NL             0            -0                         0.6 
+    13 vincoloTemporale[E]
+                    B           5.16            -0               
+    14 vincoloTemporale[F]
+                    NL             0            -0                         0.4 
+    15 vincoloTemporale[G]
+                    NL             0            -0                         0.6 
+    16 vincoloTemporale[H]
+                    NL             0            -0                       < eps
+    17 minimo[A]    NL             0            -0                         0.6 
+    18 minimo[B]    NL             0            -0                         0.4 
+    19 minimo[C]    B             14            -0               
+    20 minimo[D]    B           25.2            -0               
+    21 minimo[E]    B           29.4            -0               
+    22 minimo[F]    B           29.4            -0               
+    23 minimo[G]    B           47.6            -0               
+    24 minimo[H]    B          48.96            -0               
+    25 vincoloPrecedenze[D,A]
+                    NL             0            -0                         0.6 
+    26 vincoloPrecedenze[E,A]
+                    B            4.2            -0               
+    27 vincoloPrecedenze[E,B]
+                    NL             0            -0                       < eps
+    28 vincoloPrecedenze[F,B]
+                    NL             0            -0                         0.4 
+    29 vincoloPrecedenze[F,C]
+                    NL             0            -0                       < eps
+    30 vincoloPrecedenze[G,D]
+                    NL             0            -0                         0.6 
+    31 vincoloPrecedenze[G,E]
+                    NL             0            -0                       < eps
+    32 vincoloPrecedenze[H,D]
+                    B           1.36            -0               
+    33 vincoloPrecedenze[H,E]
+                    B           1.36            -0               
+    34 tot          B           62.8                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 inizio[A]    B           37.6             0               
+     2 inizio[B]    B           33.4             0               
+     3 inizio[C]    B           33.4             0               
+     4 inizio[D]    B           15.2             0               
+     5 inizio[E]    B           15.2             0               
+     6 inizio[F]    NL             0             0                         0.4 
+     7 inizio[G]    NL             0             0                         0.6 
+     8 inizio[H]    NL             0             0                       < eps
+     9 fine[A]      B           62.8             0               
+    10 fine[B]      B           62.8             0               
+    11 fine[C]      B           48.8             0               
+    12 fine[D]      B           37.6             0               
+    13 fine[E]      B           33.4             0               
+    14 fine[F]      B           33.4             0               
+    15 fine[G]      B           15.2             0               
+    16 fine[H]      B          13.84             0               
+    17 makespan     B           62.8                             
+    18 d[A]         B           25.2                             
+    19 d[B]         B           29.4                             
+    20 d[C]         B           15.4                             
+    21 d[D]         B           22.4                             
+    22 d[E]         B          13.04                             
+    23 d[F]         B           33.4                             
+    24 d[G]         B           15.2                             
+    25 d[H]         B          13.84                             
+    26 mu           B           0.52             0             1 
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 1.42e-14 on row 11
+        max.rel.err = 1.44e-16 on row 11
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 1.07e-14 on column 26
+        max.rel.err = 4.14e-16 on column 13
+        High quality
+
+KKT.DB: max.abs.err = 2.41e-16 on row 11
+        max.rel.err = 2.41e-16 on row 11
+        High quality
+
+End of output
